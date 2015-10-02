@@ -1,0 +1,49 @@
+---
+# vars_mint
+user_home: "{{ lookup('env', 'HOME') }}"
+user_name: "{{ lookup('env', 'C9_USER') }}"
+
+# mongo_path: /hddlinux/mongodb
+mongo_path: /var/lib/mongodb
+php_log_folder: /var/log/php
+
+ssl_items:
+  - name: scriptureforge
+    state: selfsign
+    request:
+        country_code: "TH"
+        state: "Chiang Mai"
+        locality: "Chiang Mai"
+        organization: "SIL"
+        organization_unit: ""
+        common_name: "{{user_name}}.c9.scriptureforge.org"
+        alt_names:
+          - key: DNS.1
+            value: "www.{{user_name}}.c9.scriptureforge.org"
+          - key: DNS.2
+            value: "{{user_name}}.c9.scriptureforge.org"
+    sign:
+
+apache_site_enable:
+  - scriptureforge_org.conf
+
+apache_vhosts:
+  - server_name: scriptureforge.org
+    server_admin: webmaster@palaso.org
+    server_file_name: scriptureforge_org
+    template: vhost_ssl.conf.j2
+    document_root: /var/www/virtual/scriptureforge.org/htdocs
+    link_to: "{{user_home}}/workspace/src"
+    directory_extra:
+      - RewriteEngine On
+    virtual_hosts:
+      - has_ssl: false
+        port: 80
+        server_alias:
+          - "{{user_name}}.c9.scriptureforge.org"
+      - has_ssl: true
+        port: 443
+        server_alias:
+          - "{{user_name}}.c9.scriptureforge.org"
+        certificate_file: "scriptureforge.pem"
+        key_file: "scriptureforge.key"

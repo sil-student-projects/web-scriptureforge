@@ -1,0 +1,22 @@
+---
+
+- include: dependencies_cloud9.yml
+  vars:
+    deploy: "cloud9"
+
+- include: code.yml
+
+- name: "Make mongod script"
+  hosts: all
+  sudo: no
+  vars:
+    user_home: "{{ lookup('env', 'HOME') }}"
+  tasks:
+    - name: "create data directory"
+      file: state=directory path="{{user_home}}/data"
+
+    - name: "write mongod script"
+      shell: echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > '{{user_home}}/mongod'
+
+    - name: "update mongod permissions"
+      file: state=file name="{{user_home}}/mongod" mode=0755
