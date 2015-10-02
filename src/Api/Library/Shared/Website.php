@@ -166,8 +166,10 @@ class Website
         }
         $website = self::get($hostname);
         if ($website) {
+            return $website;
             // check for https
-            if ($website->ssl && (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "")) {
+            if ($website->ssl && ((!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "") || (is_set($_SERVER['HTTP_HTTPS'] && $_SERVER['HTTP_HTTPS'] != '1')))) {
+        var_dump($website, $_SERVER); exit;
                 header("Location: " . $website->baseUrl() . $_SERVER['REQUEST_URI']);
             } else {
                 return $website;
@@ -268,6 +270,12 @@ class Website
         $w->ssl = true;
         $w->userDefaultSiteRole = self::SITEROLE_PROJECT_CREATOR;
         $sites['dev.scriptureforge.org'] = $w;
+
+        $w = new Website('web-scriptureforge-cambell-prince.c9.io', self::SCRIPTUREFORGE);
+        $w->name = 'Scripture Forge';
+        $w->ssl = true;
+        $w->userDefaultSiteRole = self::SITEROLE_PROJECT_CREATOR;
+        $sites['web-scriptureforge-cambell-prince.c9.io'] = $w;
 
         $w = new Website('demo.dev.scriptureforge.org', self::SCRIPTUREFORGE);
         $w->name = 'Scripture Forge';

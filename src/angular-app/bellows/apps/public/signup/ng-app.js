@@ -16,7 +16,7 @@ angular.module('signup', ['bellows.services', 'ui.bootstrap', 'ngAnimate', 'ui.r
         'abstract': true,
 
         // url: '/form',
-        templateUrl: '/angular-app/bellows/apps/public/signup/views/form-.html',
+        templateUrl: 'angular-app/bellows/apps/public/signup/views/form-.html',
         controller: 'SignupCtrl'
       })
       
@@ -25,31 +25,31 @@ angular.module('signup', ['bellows.services', 'ui.bootstrap', 'ngAnimate', 'ui.r
       // url will be nested (/form/identify)
       .state('form.identify', {
         // url: '/identify',
-        templateUrl: '/angular-app/bellows/apps/public/signup/views/form-identify.html'
+        templateUrl: 'angular-app/bellows/apps/public/signup/views/form-identify.html'
       })
       
       // url will be /form/register
       .state('form.register', {
         // url: '/register',
-        templateUrl: '/angular-app/bellows/apps/public/signup/views/form-register.html'
+        templateUrl: 'angular-app/bellows/apps/public/signup/views/form-register.html'
       })
       
       // url will be /form/activate
       .state('form.activate', {
         // url: '/activate',
-        templateUrl: '/angular-app/bellows/apps/public/signup/views/form-activate.html'
+        templateUrl: 'angular-app/bellows/apps/public/signup/views/form-activate.html'
       })
       
       // url will be /validate
       .state('validate', {
         // url: '/validate',
-        templateUrl: '/angular-app/bellows/apps/public/signup/views/validate.html'
+        templateUrl: 'angular-app/bellows/apps/public/signup/views/validate.html'
       })
       
       // url will be /form/login
       .state('form.login', {
         // url: '/login',
-        templateUrl: '/angular-app/bellows/apps/public/signup/views/form-login.html'
+        templateUrl: 'angular-app/bellows/apps/public/signup/views/form-login.html'
       })
       ;
     
@@ -66,7 +66,7 @@ angular.module('signup', ['bellows.services', 'ui.bootstrap', 'ngAnimate', 'ui.r
     
     // configure interface language filepath
     $translateProvider.useStaticFilesLoader({
-      prefix: '/angular-app/bellows/lang/',
+      prefix: 'angular-app/bellows/lang/',
       suffix: '.json',
     });
     $translateProvider.preferredLanguage('en');
