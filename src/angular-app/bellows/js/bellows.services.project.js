@@ -72,7 +72,7 @@ angular.module('bellows.services')
     };
     this.data.projectTypesBySite = function() {
       var types = {
-        'scriptureforge': ['sfchecks'],
+        'scriptureforge': ['sfchecks', 'webtypesetting'],
         'languageforge': ['lexicon', 'semdomtrans']
       };
       return types[ss.baseSite()];

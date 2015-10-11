@@ -50,7 +50,7 @@ angular.module('sfchecks',
       $routeProvider.when(
         '/:textId/:questionId',
         {
-          templateUrl: '/angular-app/scriptureforge/sfchecks/partials/question.html', 
+          templateUrl: '/angular-app/scriptureforge/sfchecks/partials/question.html',
           controller: 'QuestionCtrl'
       }
     );
