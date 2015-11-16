@@ -697,7 +697,10 @@ class Sf
     public function typesetting_composition_setParagraphProperties($bookId, $propertiesModel) {
         return TypesettingCompositionCommands::setParagraphProperties($this->_projectId, $bookId, $propertiesModel);
     }
-
+    public function typesetting_composition_setPageComment($bookId, $pageNumber)
+    {
+        return TypesettingCompositionCommands::setPageComment($this->_projectId, $bookId, $pageNumber);
+    }
     public function typesetting_composition_renderBook($bookId) {
         return TypesettingCompositionCommands::renderBook($this->_projectId, $bookId);
     }
@@ -706,9 +709,9 @@ class Sf
         return TypesettingCompositionCommands::getRenderedPageForBook($this->_projectId, $bookId, $pageNumber);
     }
 
-    public function typesetting_composition_getIllustrationProperties() {
-        return TypesettingCompositionCommands::getIllustrationProperties($this->_projectId);
-    }
+//    public function typesetting_composition_getIllustrationProperties() {
+//        return TypesettingCompositionCommands::getIllustrationProperties($this->_projectId);
+//    }
 
     public function typesetting_composition_setIllustrationProperties($illustrationModel) {
         return TypesettingCompositionCommands::setIllustrationProperties($this->_projectId, $illustrationModel);
@@ -719,9 +722,9 @@ class Sf
     public function typesetting_composition_getBookDto($bookId) {
         return TypesettingCompositionCommands::getBookDto($this->_projectId, $bookId);
     }
-    public function typesetting_composition_getPageStatus($bookId) {
-        return TypesettingCompositionCommands::getPageStatus($this->_projectId, $bookId);
-    }
+//    public function typesetting_composition_getPageStatus($bookId) {
+//        return TypesettingCompositionCommands::getPageStatus($this->_projectId, $bookId);
+//    }
     public function typesetting_composition_setPageStatus($bookId, $pages) {
         return TypesettingCompositionCommands::setPageStatus($this->_projectId, $bookId, $pages);
     }
@@ -733,7 +736,7 @@ class Sf
     // ---------------------------------------------------------------
     // Upload API
     // ---------------------------------------------------------------
-    public function typsetting_upload_importProjectZip($mediaType, $tmpFilePath)
+    public function typesetting_upload_importProjectZip($mediaType, $tmpFilePath)
     {
         $response = TypesettingUploadCommands::importProjectZip($this->_projectId, $mediaType, $tmpFilePath);
         return JsonEncoder::encode($response);

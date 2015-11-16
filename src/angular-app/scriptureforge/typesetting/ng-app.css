@@ -33,11 +33,10 @@ ul.projectNav li:hover {
 hr {
     height: 1px;
     background-color: #DCDCDC;
-    border: 0px none;
+    border: 0px;
 }
 
-.composition {
-	margin: auto; 
-	width: 90%; 
+.inline-block  div {
+    display: inline-block;
 }
 

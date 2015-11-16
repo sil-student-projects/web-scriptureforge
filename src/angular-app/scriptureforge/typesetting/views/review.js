@@ -28,54 +28,22 @@ angular.module('typesetting.composition',
 //                $scope.pages.push("red");
 //              }
 
-
-            $scope.renderRapuma = function() {
-                compositionService.renderBook($scope.bookID,
-                    function(result) {
-                        //nothing todo?
-                    });
-            };
             var getBookHTML = function getBookHTML() {
                 compositionService.getBookHTML($scope.bookID,
                     function(result) {
                         $scope.bookHTML = result.data;
                     });
             };
-            var getParagraphProperties = function getParagraphProperties() {
-                compositionService.getParagraphProperties($scope.bookID, function(result) {
-                    paragraphProperties = result.data;
-                });
-            };
-            var setParagraphProperties = function setParagraphProperties() {
-                compositionService.setParagraphProperties(
-                    $scope.bookID, paragraphProperties,
-                    function(result) {
-                        // nothing todo?
-                    });
-            };
-            var getIllustrationProperties = function getIllustrationProperties() {
-                compositionService.getIllustrationProperties(function(result) {
-                    illustrationProperties = result.data;
-                });
-            };
-            var setIllustrationProperties = function setIllustrationProperties() {
-                compositionService.setIllustrationProperties(illustrationProperties,
-                    function(result) {
-                        // nothing todo?
-                    });
-            };
+
             var getRenderedPageForBook = function getRenderedPageForBook(
                 pageNum) {
                 compositionService.getRenderedPageForBook(
                     $scope.bookID,
                     pageNum,
                     function(result) {
-                        if (pageNum == 0 || pageNum > $scope.pages.length)
-                            result.data = "";
-                        if (pageNum % 2 == 0)
+
                             $scope.renderedImageLeft = result.data;
-                        else
-                            $scope.renderedImageRight = result.data;
+
                     });
             };
             var getPageStatus = function getPageStatus(){
@@ -106,6 +74,8 @@ angular.module('typesetting.composition',
                     //console.log(paragraphProperties);
                     $scope.pages = result.data.pages;
                     $scope.selectedPage = 1;
+                    $scope.comments = result.data.comments;
+                   // $scope.comments = ['asf','asdaff','asdasdff','asdfasdf'];
                 });
             };
             var getBookDto = function getBookDto(){
@@ -138,6 +108,12 @@ angular.module('typesetting.composition',
                 $scope.selectedPage = 1;
             };
 
+            var getPageStatus = function getPageStatus(){
+                compositionService.getPageStatus($scope.bookID, function(result){
+                    $scope.pages = result.data;
+                });
+            };
+
 
             $scope.bookChanged = function bookChanged(){
                 setParagraphProperties();
@@ -152,6 +128,8 @@ angular.module('typesetting.composition',
                 $scope.selectedPage = Math.min($scope.pages.length,
                     parseInt($scope.selectedPage) + 1);
             };
+
+
             $scope.updatePage = function() {
                 $scope.selectedPage = $scope.pageInput;
             };
@@ -205,13 +183,9 @@ angular.module('typesetting.composition',
                 if ($scope.selectedPage > $scope.pages.length)
                     $scope.selectedPage = $scope.pages.length;
                 $scope.pageInput = $scope.selectedPage;
-                if ($scope.selectedPage % 2 == 0) {
+
                     getRenderedPageForBook($scope.selectedPage);
-                    getRenderedPageForBook($scope.selectedPage + 1);
-                } else {
-                    getRenderedPageForBook($scope.selectedPage - 1);
-                    getRenderedPageForBook($scope.selectedPage);
-                }
+
             });
             $scope.$watch('paragraphNode',function() {
                 if (!$scope.paragraphNode)
