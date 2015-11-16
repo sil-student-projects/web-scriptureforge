@@ -18,68 +18,82 @@
                         class="pageNumber" data-ng-model="pageInput">
                     <button type="button" class="btn btn-primary btn-sm"
                         data-ng-click="updatePage()">GO</button>
-                </div>
-            </div>
-
-        </div>
+                </div><!--End page-select--> 
+            </div><!--End Col-lg-6--> 
+        </div><!--End Row--> 
+        
         <div class="row composition-bottom">
-            <div class="col-md-4">
-                <div class="text workingText" data-ng-bind-html="bookHTML"
+			<div class="span4 text workingText" data-ng-bind-html="bookHTML"
                     data-ng-click="textClick()" composition-selection
-                    paragraph-node="paragraphNode" content="bookHTML"></div>
+                    paragraph-node="paragraphNode" content="bookHTML">
+			</div><!--End Working Text--> 
+            
+            <div class="span8 imageContainer">
+				<div class="span4 imageDiv"
+                    data-ng-class="{grey:selectedPage%2==1}">
+					<img data-ng-src="{{renderedImageLeft || '//:0'}}"
+                        data-ng-class="{imageBorder:renderedImageLeft}" />
+                </div><!--End left image--> 
 
-                <div class="properties">
-                    <span data-ng-show="currentImage==''&&verse==''"> Properties
+                <div class="span-4 imageDiv"
+                    data-ng-class="{grey:selectedPage%2==0}">
+                    <img data-ng-src="{{renderedImageRight || '//:0'}}"
+                        data-ng-class="{imageBorder:renderedImageRight}" />
+                </div><!--End Right image--> 
+			</div><!--End imageContainer-->  
+
+            <div class="span4 properties">
+				<span data-ng-show="currentImage==''&&verse==''"> Properties
                         panel <br /> <br /> Click on a paragraph or an illustration
                         placeholder to edit their properties
-                    </span>
-
-                    <div data-ng-show="currentImage!=''">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Illustration</td>
-                                    <td>{{currentImage}}</td>
-                                </tr>
-                                <tr>
-                                    <td>Location</td>
-                                    <td><input class="form-control" data-ng-model="location"
+				</span>
+			</div> 
+			
+			
+            <div class="span8 progressBar" data-ng-show="currentImage!=''">
+				<table>
+					<tbody>
+						<tr>
+							<td>Illustration</td>
+								<td>{{currentImage}}</td>
+						</tr>
+                        <tr>
+							<td>Location</td>
+								<td><input class="form-control" data-ng-model="location"
                                         data-ng-change="illustrationSave()" /></td>
-                                </tr>
-                                <tr>
-                                    <td>Width</td>
-                                    <td><input class="form-control" type="number"
+						</tr>
+                        <tr>
+							<td>Width</td>
+							<td><input class="form-control" type="number"
                                         data-ng-model="imageWidth" data-ng-change="illustrationSave()" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Scale</td>
-                                    <td><input class="form-control" type="number"
+                            </td>
+						</tr>
+                        <tr>
+							<td>Scale</td>
+                            <td><input class="form-control" type="number"
                                         data-ng-model="scale" step="0.05"
                                         data-ng-change="illustrationSave()" /></td>
-                                </tr>
-                                <tr>
-                                    <td>Caption</td>
-                                    <td><input class="form-control" data-ng-model="caption"
+						</tr>
+                        <tr>
+							<td>Caption</td>
+							<td><input class="form-control" data-ng-model="caption"
                                         data-ng-change="illustrationSave()" /></td>
-                                </tr>
-                                <tr>
-                                    <td>Use caption</td>
-                                    <td><input class="checkbox" type="checkbox"
+						</tr>l
+						<tr>
+							<td>Use caption</td>
+							<td><input class="checkbox" type="checkbox"
                                         data-ng-model="useCaption" data-ng-change="illustrationSave()" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Use illustration</td>
-                                    <td><input class="checkbox" type="checkbox"
+							</td>
+						</tr>
+						<tr>
+							<td>Use illustration</td>
+                            <td><input class="checkbox" type="checkbox"
                                         data-ng-model="useIllustration"
                                         data-ng-change="illustrationSave()" /></td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-
-                    </div>
+						</tr>
+					</tbody>
+				</table>
+				
                     <div data-ng-show="verse!=''">
                         <p>Chapter: {{chapter}}, verse: {{verse}}</p>
                         Growth factor: <input class="form-control"
@@ -89,8 +103,8 @@
                             max="2" />
                     </div>
                 </div>
-            </div>
-                <div class="col-lg-6">
+            
+                <div class="span-6">
                     <div class="prev">
                         <button type="button" class="btn btn-link "
                                 data-ng-click="decreasePage()">&laquo</button>
@@ -109,22 +123,8 @@
                     <span class="sliderRanges"
                           data-ng-repeat="page in pages track by $index"
                           data-ng-style="{width: 100/pages.length + '%', 'background-color':page}"></span>
-                    </div>
-                </div>
-             <div class="imageContainer">
-                <div class="col-md-4 imageDiv"
-                    data-ng-class="{grey:selectedPage%2==1}">
-                    <img data-ng-src="{{renderedImageLeft || '//:0'}}"
-                        data-ng-class="{imageBorder:renderedImageLeft}" />
-                </div>
-
-                <div class="col-md-4 imageDiv"
-                    data-ng-class="{grey:selectedPage%2==0}">
-                    <img data-ng-src="{{renderedImageRight || '//:0'}}"
-                        data-ng-class="{imageBorder:renderedImageRight}" />
-                </div>
-             </div>
-        </div>
-    </div>
-
-</div>
+						</div>
+						</div>
+					</div><!--End Prev--> 
+				</div><!--End span-6--> 
+		</div><!--End Row Composition-bottom--> 

@@ -11,6 +11,10 @@
     display: inline-flex;
 }
 
+.row composition-bottom{
+	display: inline; 
+}
+
 .render{
     float:right;
 }
@@ -28,9 +32,20 @@
     height: 400px;
     min-width: 200px;
     padding: 5px 5px 5px 5px;
+    display: inline-block; 
 }
+.workingText{
+	width: 30%; 
+	height: 650px; 
+	
+}
+.properties{
+	width: 40%; 
+}
+.progressBar{
+	width: 40%; 
 
-
+}
 
 .composition-progress-bar {
     margin-top: 10px;
@@ -119,9 +134,26 @@
 }
 .spanWorkspace {
     width: 180%;
-   margin-left: -40%;
-
+	margin-left: -40%;
     padding: 20px 0;
 
 }
 
+.imageContainer{
+	width: 60%;
+	height: 600px; 
+	float: right; 
+}
+
+.imageDiv{
+	width: 50%; 
+	
+}
+
+#red{
+	background-color: red; 
+}
+
+#blue{
+	background-color: blue;
+}
