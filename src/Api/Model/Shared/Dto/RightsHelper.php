@@ -317,6 +317,8 @@ class RightsHelper
                 return $this->userHasProjectRight(Domain::TEXTS + Operation::VIEW);
             case 'typesetting_composition_setPageStatus':
                 return $this->userHasProjectRight(Domain::TEXTS + Operation::EDIT);
+            case 'typesetting_composition_setPageComment':
+                return $this->userHasProjectRight(Domain::TEXTS + Operation::EDIT);
             case 'typesetting_composition_getRenderedPageForBook':
                 return $this->userHasProjectRight(Domain::TEXTS + Operation::VIEW);
             case 'typesetting_composition_getPageDto':

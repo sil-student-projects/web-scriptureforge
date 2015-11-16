@@ -1,6 +1,6 @@
 <div data-ng-cloak data-ng-controller="compositionCtrl"
     style="text-align: center;">
-    <div class="Container">
+    <div class="Container spanWorkspace">
         <div class="row">
             <div class="col-lg-6">
                 <button type="button" class="btn btn-primary btn-sm"
@@ -110,19 +110,19 @@
                           data-ng-style="{width: 100/pages.length + '%', 'background-color':page}"></span>
                     </div>
                 </div>
+             <div class="imageContainer">
+                <div class="col-md-4 imageDiv"
+                    data-ng-class="{grey:selectedPage%2==1}">
+                    <img data-ng-src="{{renderedImageLeft || '//:0'}}"
+                        data-ng-class="{imageBorder:renderedImageLeft}" />
+                </div>
 
-            <div class="col-md-4 imageDiv"
-                data-ng-class="{grey:selectedPage%2==1}">
-                <img data-ng-src="{{renderedImageLeft || '//:0'}}"
-                    data-ng-class="{imageBorder:renderedImageLeft}" />
-            </div>
-
-            <div class="col-md-4 imageDiv"
-                data-ng-class="{grey:selectedPage%2==0}">
-                <img data-ng-src="{{renderedImageRight || '//:0'}}"
-                    data-ng-class="{imageBorder:renderedImageRight}" />
-            </div>
-        </div>
+                <div class="col-md-4 imageDiv"
+                    data-ng-class="{grey:selectedPage%2==0}">
+                    <img data-ng-src="{{renderedImageRight || '//:0'}}"
+                        data-ng-class="{imageBorder:renderedImageRight}" />
+                </div>
+             </div>
         </div>
     </div>
 </div>
