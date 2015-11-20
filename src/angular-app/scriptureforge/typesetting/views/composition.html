@@ -23,34 +23,35 @@
         </div><!--End Row--> 
         
         <div class="row composition-bottom">
-			<div class="span4 text workingText" data-ng-bind-html="bookHTML"
+			<div class="span6 text workingText" data-ng-bind-html="bookHTML"
                     data-ng-click="textClick()" composition-selection
                     paragraph-node="paragraphNode" content="bookHTML">
 			</div><!--End Working Text--> 
             
-            <div class="span8 imageContainer">
-				<div class="span4 imageDiv"
+            <div class="span12 imageContainer">
+				<div class="imageDiv"
                     data-ng-class="{grey:selectedPage%2==1}">
 					<img data-ng-src="{{renderedImageLeft || '//:0'}}"
                         data-ng-class="{imageBorder:renderedImageLeft}" />
                 </div><!--End left image--> 
 
-                <div class="span-4 imageDiv"
+                <div class="imageDiv"
                     data-ng-class="{grey:selectedPage%2==0}">
                     <img data-ng-src="{{renderedImageRight || '//:0'}}"
                         data-ng-class="{imageBorder:renderedImageRight}" />
                 </div><!--End Right image--> 
-			</div><!--End imageContainer-->  
-
-            <div class="span4 properties">
-				<span data-ng-show="currentImage==''&&verse==''"> Properties
+                
+                <div class="properties">
+					<span data-ng-show="currentImage==''&&verse==''"> Properties
                         panel <br /> <br /> Click on a paragraph or an illustration
                         placeholder to edit their properties
-				</span>
-			</div> 
+					</span>
+				</div> 
+                
+			</div><!--End imageContainer-->  
 			
 			
-            <div class="span8 progressBar" data-ng-show="currentImage!=''">
+            <div class="progressBar" data-ng-show="currentImage!=''">
 				<table>
 					<tbody>
 						<tr>

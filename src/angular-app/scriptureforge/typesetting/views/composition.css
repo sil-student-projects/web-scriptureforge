@@ -35,7 +35,7 @@
     display: inline-block; 
 }
 .workingText{
-	width: 30%; 
+	
 	height: 650px; 
 	
 }
@@ -140,20 +140,12 @@
 }
 
 .imageContainer{
-	width: 60%;
+	
 	height: 600px; 
-	float: right; 
+	
 }
 
 .imageDiv{
 	width: 50%; 
 	
-}
-
-#red{
-	background-color: red; 
-}
-
-#blue{
-	background-color: blue;
 }
