@@ -23,12 +23,19 @@
         </div><!--End Row--> 
         
         <div class="row composition-bottom">
+        	 <div class="span2 properties">
+				<span data-ng-show="currentImage==''&&verse==''"> Properties
+                       panel <br /> <br /> Click on a paragraph or an illustration
+                       placeholder to edit their properties
+				</span>
+			</div> 
+        
 			<div class="span6 text workingText" data-ng-bind-html="bookHTML"
                     data-ng-click="textClick()" composition-selection
                     paragraph-node="paragraphNode" content="bookHTML">
 			</div><!--End Working Text--> 
             
-            <div class="span12 imageContainer">
+            <div class="span10 imageContainer">
 				<div class="imageDiv"
                     data-ng-class="{grey:selectedPage%2==1}">
 					<img data-ng-src="{{renderedImageLeft || '//:0'}}"
@@ -39,16 +46,8 @@
                     data-ng-class="{grey:selectedPage%2==0}">
                     <img data-ng-src="{{renderedImageRight || '//:0'}}"
                         data-ng-class="{imageBorder:renderedImageRight}" />
-                </div><!--End Right image--> 
-                
-                <div class="properties">
-					<span data-ng-show="currentImage==''&&verse==''"> Properties
-                        panel <br /> <br /> Click on a paragraph or an illustration
-                        placeholder to edit their properties
-					</span>
-				</div> 
-                
-			</div><!--End imageContainer-->  
+                </div><!--End Right image-->                
+           	</div><!--End imageContainer-->  
 			
 			
             <div class="progressBar" data-ng-show="currentImage!=''">
@@ -103,9 +102,9 @@
                             type="number" data-ng-model="paragraphGrowthFactor" min="-1"
                             max="2" />
                     </div>
-                </div>
+                </div><!-- End Progress bar -->
             
-                <div class="span-6">
+                <div class="span10">
                     <div class="prev">
                         <button type="button" class="btn btn-link "
                                 data-ng-click="decreasePage()">&laquo</button>
@@ -114,18 +113,15 @@
                         <button type="button" class="btn btn-link"
                                 data-ng-click="increasePage()">&raquo</button>
                     </div>
-                    <div
-                            class="progress-bar composition-progress-bar progress-bar-slider"
+                    	<div class="progress-bar composition-progress-bar progress-bar-slider"
                             data-ng-class="{invisible:pages.length==0}">
                         <input class="progress-slider" type="range" min="0"
                                max="{{pages.length}}" data-ng-model="selectedPage">
                         <div class="inner"
                              data-ng-style="{ width: (selectedPage)/pages.length*100 + '%' || '0%' }"></div>
-                    <span class="sliderRanges"
-                          data-ng-repeat="page in pages track by $index"
-                          data-ng-style="{width: 100/pages.length + '%', 'background-color':page}"></span>
+                    		<span class="sliderRanges"
+                          		data-ng-repeat="page in pages track by $index"
+                          		data-ng-style="{width: 100/pages.length + '%', 'background-color':page}"></span>
 						</div>
-						</div>
-					</div><!--End Prev--> 
 				</div><!--End span-6--> 
 		</div><!--End Row Composition-bottom--> 
