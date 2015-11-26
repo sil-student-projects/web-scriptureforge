@@ -9,12 +9,6 @@ angular.module('typesetting.compositionServices', ['jsonRpc'])
       jsonRpc.call('typesetting_composition_getBookHTML', [bookId], callback);
     };
 
-    /*
-    this.getListOfBooks = function getListOfBooks(callback) {
-      jsonRpc.call("typesetting_getListOfBooks", [], callback);
-    };
-    */
-
     this.getParagraphProperties = function getParagraphProperties(bookId, callback) {
       jsonRpc.call('typesetting_composition_getParagraphProperties', [bookId], callback);
     };
@@ -55,7 +49,7 @@ angular.module('typesetting.compositionServices', ['jsonRpc'])
       jsonRpc.call('typesetting_composition_setPageStatus', [bookId, pages], callback);
     };
 
-  },])
+  }])
   .service('typesettingSetupService', ['jsonRpc',
   function(jsonRpc) {
     jsonRpc.connect('/api/sf');
@@ -63,5 +57,5 @@ angular.module('typesetting.compositionServices', ['jsonRpc'])
     this.setupPageDto = function(callback) {
     };
 
-  },]);
+  }]);
 

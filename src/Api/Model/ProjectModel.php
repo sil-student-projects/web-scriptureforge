@@ -41,6 +41,7 @@ class ProjectModel extends Mapper\MapperModel
         $this->allowInviteAFriend = true;
         $this->interfaceLanguageCode = 'en';
         parent::__construct(ProjectModelMongoMapper::instance(), $id);
+        $this->id = $id;
     }
 
     /**

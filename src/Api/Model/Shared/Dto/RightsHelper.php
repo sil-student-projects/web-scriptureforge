@@ -327,6 +327,13 @@ class RightsHelper
                 return $this->userHasProjectRight(Domain::TEXTS + Operation::VIEW);
 
 
+            case 'typesetting_rendered_page_getRenderedPageDto':
+                return $this->userHasProjectRight(Domain::TEXTS + Operation::VIEW);
+
+            case 'typesetting_rendered_page_setRenderedPageComments':
+                return $this->userHasProjectRight(Domain::TEXTS + Operation::VIEW);
+
+
             case 'typesetting_layoutSettings_update':
                 return $this->userHasProjectRight(Domain::TEXTS + Operation::EDIT);
             case 'typesetting_layoutPage_dto':

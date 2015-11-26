@@ -5,8 +5,6 @@ angular.module('typesetting',
           'ui.router',
           'bellows.filters',
           'typesetting.composition',
-          'typesetting.discussionList',
-          'typesetting.discussionThread',
           'typesetting.services',
           'typesetting.projectSetupLayout',
           'typesetting.projectSetupAssets',
@@ -47,21 +45,13 @@ angular.module('typesetting',
         .state('render', {
           url: '/render',
           templateUrl: '/angular-app/scriptureforge/typesetting/views/renderList.html',
-        })
-        .state('discussionThreadView', {
-          url: '/discussion/:threadId',
-          templateUrl: '/angular-app/scriptureforge/typesetting/views/discussionThread.html',
         });
 
   },])
   .controller('MainCtrl', ['$scope', function($scope) {
     $scope.selectedBtn = 0;
 
-    // accessed by discussionListCtrl and discussionThreadCtrl
-    $scope.discussion = {
-      currentThreadIndex: -1,
-      threads: [],
-    };
+
 
     $scope.settingsButton = {
       isopen: false,

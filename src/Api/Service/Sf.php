@@ -15,10 +15,11 @@ use Api\Model\Languageforge\Lexicon\Command\LexUploadCommands;
 use Api\Model\Languageforge\Lexicon\Dto\LexBaseViewDto;
 use Api\Model\Languageforge\Lexicon\Dto\LexDbeDto;
 use Api\Model\Languageforge\Lexicon\Dto\LexProjectDto;
+use Api\Model\Scriptureforge\Typesetting\Command;
 use Api\Model\Scriptureforge\Typesetting\Command\TypesettingCompositionCommands;
+use Api\Model\Scriptureforge\Typesetting\Command\TypesettingRenderedPageCommands;
 use Api\Model\Scriptureforge\Typesetting\Command\TypesettingDiscussionListCommands;
 use Api\Model\Scriptureforge\Typesetting\Command\TypesettingSettingsCommands;
-use Api\Model\Scriptureforge\Typesetting\Command\TypesettingSettingCommands;
 use Api\Model\Scriptureforge\Typesetting\Command\TypesettingTemplateCommands;
 use Api\Model\Scriptureforge\Typesetting\Command\TypesettingRenderCommands;
 use Api\Model\Scriptureforge\Typesetting\Command\TypesettingUploadCommands;
@@ -727,6 +728,19 @@ class Sf
 //    }
     public function typesetting_composition_setPageStatus($bookId, $pages) {
         return TypesettingCompositionCommands::setPageStatus($this->_projectId, $bookId, $pages);
+    }
+
+
+    //Rendered Page for Book
+    //get
+    public function typesetting_rendered_page_getRenderedPageDto() {
+        return TypesettingRenderedPageCommands::getRenderedPageDto($this->_projectId);
+    }
+
+
+    //set
+    public function typesetting_rendered_page_setRenderedPageComments() {
+        return TypesettingRenderedPageCommands::setRenderedPageComments();
     }
 
     public function typesetting_readAssetsDto() {
