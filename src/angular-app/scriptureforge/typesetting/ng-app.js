@@ -4,11 +4,10 @@ angular.module('typesetting',
     [
           'ui.router',
           'bellows.filters',
-          'typesetting.composition',
-          'typesetting.services',
-          'typesetting.projectSetupLayout',
-          'typesetting.projectSetupAssets',
-          'typesetting.renderList',
+          'typesetting.typeset',
+          'typesetting.review',
+
+
     ])
   .run(['$rootScope', '$state', '$stateParams', function($rootScope,   $state,   $stateParams) {
     // Add $state and $stateParams to the $rootScope so that we can access them from any scope.
@@ -19,24 +18,13 @@ angular.module('typesetting',
   },])
   .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/composition');
+    $urlRouterProvider.otherwise('/typeset');
 
     $stateProvider
-        .state('home', {
-          url: '/composition',
-          templateUrl: '/angular-app/scriptureforge/typesetting/views/composition.html',
-        })
-        .state('projectSetupAssets', {
-          url: '/assets',
-          templateUrl: '/angular-app/scriptureforge/typesetting/views/projectSetup.assets.html',
-        })
-        .state('projectSetupLayout', {
-          url: '/layout',
-          templateUrl: '/angular-app/scriptureforge/typesetting/views/projectSetup.layout.html',
-        })
-        .state('composition', {
-          url: '/composition',
-          templateUrl: '/angular-app/scriptureforge/typesetting/views/composition.html',
+
+        .state('typeset', {
+          url: '/typeset',
+          templateUrl: '/angular-app/scriptureforge/typesetting/views/typeset.html',
         })
         .state('review', {
           url: '/review',

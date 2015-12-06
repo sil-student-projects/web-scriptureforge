@@ -1,23 +1,21 @@
 'use strict';
 
-angular.module('typesetting.composition',
+angular.module('typesetting.review',
     [ 'jsonRpc', 'ui.bootstrap', 'bellows.services', 'ngAnimate',
-        'typesetting.compositionServices',"typesetting.renderedPageServices",
+        'typesetting.renderedPageServices',
         'composition.selection' ])
 
     .controller(
-    'compositionCtrl',
+    'reviewCtrl',
     [
         '$scope',
         '$state',
         'typesettingSetupService',
-        'typesettingCompositionService',
         'typesettingRenderedPageService',
         'sessionService',
         'modalService',
         'silNoticeService',
-        function($scope, $state, typesettingSetupApi,
-                 compositionService, renderedPageService) {
+        function($scope, $state, typesettingSetupApi, renderedPageService) {
 
             $scope.listOfBooks = [];
             var currentVerse;
@@ -30,32 +28,22 @@ angular.module('typesetting.composition',
                 $scope.pages = [];
                 $scope.selectedPage = 1;
             };
-            //var getRenderedPage = function getRenderedPage(pageNum) {
-            //    renderedPageService.getRenderedPage(
-            //        $scope.bookID,
-            //        pageNum,
-            //        function(result) {
-            //                $scope.renderedPage = result.data;
-            //
-            //        });
-            //};
+
             var getPageStatus = function getPageStatus(){
-                compositionService.getPageStatus($scope.bookID, function(result){
+                renderedPageService.getPageStatus($scope.bookID, function(result){
                     $scope.pages = result.data;
                 });
             };
             var setPageStatus = function setPageStatus(){
-                compositionService.setPageStatus($scope.bookID, $scope.pages, function(result){
+                renderedPageService.setPageStatus($scope.bookID, $scope.pages, function(result){
                     //nothing todo?
                 });
             };
-            var getPageDto = function getPageDto(){
+            var getRenderedPageDto = function getRenderedPageDto(){
                 initializeBook();
-                renderedPageService.getPageDto(function getPageDto(result){
+                renderedPageService.getRenderedPageDto(function getRenderedPageDto(result){
                     $scope.pages = result.data.pages;
-                    $scope.renderedPage = result.data.renderedPages;
-
-
+                    $scope.renderedPage = result.data.renderedPage;
                     $scope.selectedPage = 1;
                     $scope.comments = result.data.comments;
                 });
@@ -94,6 +82,6 @@ angular.module('typesetting.composition',
 
             });
 
-            getPageDto();
+            getRenderedPageDto();
 
         } ]);

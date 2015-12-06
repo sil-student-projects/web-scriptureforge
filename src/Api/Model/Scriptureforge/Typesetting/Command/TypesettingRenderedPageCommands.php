@@ -50,7 +50,7 @@ class TypesettingRenderedPageCommands
     {
         $bookID = 'id1';
         return array('bookID' => $bookID,
-            'renderedPages' => TypesettingRenderedPageCommands::getRenderedPage(),
+            'renderedPage' => TypesettingRenderedPageCommands::getRenderedPage(),
             'pages' => TypesettingRenderedPageCommands::getPageStatus($projectId, $bookID),
             'comments' => TypesettingRenderedPageCommands::getRenderedPageComments(($projectId)));
     }

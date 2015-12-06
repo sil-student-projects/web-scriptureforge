@@ -738,11 +738,6 @@ class Sf
     }
 
 
-    //set
-    public function typesetting_rendered_page_setRenderedPageComments() {
-        return TypesettingRenderedPageCommands::setRenderedPageComments();
-    }
-
     public function typesetting_readAssetsDto() {
         return TypesettingAssetDto::encode($this->_projectId);
     }

@@ -5,15 +5,17 @@ angular.module('typesetting.renderedPageServices', ['jsonRpc'])
   function(jsonRpc) {
     jsonRpc.connect('/api/sf');
 
-
-
-    this.getPageDto = function getRenderedPageDto(callback) {
+    this.getRenderedPageDto = function getRenderedPageDto(callback) {
       jsonRpc.call('typesetting_rendered_page_getRenderedPageDto', [], callback);
     };
 
-    this.setRenderedPageComments = function setRenderedPageComments(bookId, pageNumber, callback) {
-      jsonRpc.call('typesetting_rendered_page_setRenderedPageComment', [bookId, pageNumber], callback);
+  },])
+    .service('typesettingSetupService', ['jsonRpc',
+  function(jsonRpc) {
+    jsonRpc.connect('/api/sf');
+
+    this.setupPageDto = function(callback) {
     };
 
-  }]);
+  },]);
 
