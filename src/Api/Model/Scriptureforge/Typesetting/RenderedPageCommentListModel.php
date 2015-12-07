@@ -5,13 +5,13 @@ namespace Api\Model\Scriptureforge\Typesetting;
 use Api\Model\Mapper\MapperListModel;
 use Api\Model\Mapper\MongoMapper;
 
-class SettingListModel extends MapperListModel
+class RenderedPageCommentListModel extends MapperListModel
 {
     public static function mapper($databaseName)
     {
         static $instance = null;
         if (null === $instance) {
-            $instance = new MongoMapper($databaseName, 'settings');
+            $instance = new MongoMapper($databaseName, 'pageComments');
         }
 
         return $instance;

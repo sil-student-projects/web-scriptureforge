@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('typesetting.composition',
+angular.module('typesetting.typeset',
         [ 'jsonRpc', 'ui.bootstrap', 'bellows.services', 'ngAnimate',
             'typesetting.compositionServices',
             'composition.selection' ])
@@ -16,8 +16,7 @@ angular.module('typesetting.composition',
             'modalService',
             'silNoticeService',
             function($scope, $state, typesettingSetupApi,
-                compositionService, sessionService, modal,
-                notice) {
+                compositionService) {
               var paragraphProperties = {
               // c1v1: {growthFactor:3},
               };

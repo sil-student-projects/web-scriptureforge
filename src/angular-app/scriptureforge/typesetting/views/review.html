@@ -1,4 +1,4 @@
-<div data-ng-cloak data-ng-controller="compositionCtrl" style="text-align: center;">
+<div data-ng-cloak data-ng-controller="reviewCtrl" style="text-align: center;">
     <div class="Container inline-block ">
 
             <div style="width:400px" >
@@ -25,8 +25,8 @@
                 </div>
                 <div class="imagesContainers" style="width:400px ">
                     <div class=" imageDiv" style="width:400px ">
-                        <img data-ng-src="{{renderedImageLeft || renderedImageRight}}"
-                             data-ng-class="{imageBorder:renderedImageLeft}" />
+                        <img data-ng-src="{{renderedPage}}"
+                             data-ng-class="{imageBorder:renderedPage}" />
                     </div>
                    <div class="col-md-4 imageDiv"
                          data-ng-class="{grey:selectedPage%2==0}">
