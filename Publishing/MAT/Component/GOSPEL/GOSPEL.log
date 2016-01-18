@@ -1,0 +1,2799 @@
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xetex 2015.1.8)  17 JAN 2016 19:34
+entering extended mode
+ %&-line parsing enabled.
+**/home/superman/src/web-scriptureforge/Publishing/MAT/Component/GOSPEL/GOSPEL.
+tex
+
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Component/GOSPEL/GOSPEL.t
+ex
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/paratext2.t
+ex
+\@ndhooks=\toks13
+\@nithooks=\toks14
+\@veryparhooks=\toks15
+\p@rstylehooks=\toks16
+
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-tracing
+.tex)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-para-st
+yle.tex
+\c@rrentcols=\count28
+\he@dingbox=\box16
+\p@rlocs=\write0
+\readp@rlocs=\read1
+\prev@y=\count29
+\this@y=\count30
+\chap@y=\count31
+\pr@vdelay=\count32
+\th@sdelay=\count33
+\j@nkbox=\box17
+\ch@pterwd=\dimen16
+\ch@pterbox=\box18
+\ch@pternote=\box19
+\str@tbox=\box20
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-char-st
+yle.tex
+\n@tenesting=\count34
+\p@ranesting=\count35
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-note-st
+yle.tex
+\n@tecl@sses=\toks17
+\AboveNoteSpace=\dimen17
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-stylesh
+eet.tex
+\dropnumbersize=\dimen18
+\v@rsehooks=\toks18
+\styl@sheet=\read2
+\t@stread=\read3
+\AdjListPath=\toks19
+\PicListPath=\toks20
+\PtxFilePath=\toks21
+\do@ctive=\toks22
+\FontSizeUnit=\dimen19
+\IndentUnit=\dimen20
+\PaperWidth=\dimen21
+\PaperHeight=\dimen22
+\MarginUnit=\dimen23
+\BindingGutter=\dimen24
+\TitleColumns=\count36
+\IntroColumns=\count37
+\BodyColumns=\count38
+\le@dingunit=\dimen25
+\verticalsp@ceunit=\dimen26
+\topm@rgin=\dimen27
+\bottomm@rgin=\dimen28
+\textwidth=\dimen29
+\textheight=\dimen30
+\colwidth=\dimen31
+\ExtraRMargin=\dimen32
+\gutter=\dimen33
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-referen
+ces.tex
+\c@untA=\count39
+\c@untB=\count40
+\oddhead=\toks23
+\evenhead=\toks24
+\titlehead=\toks25
+\oddfoot=\toks26
+\evenfoot=\toks27
+\titlefoot=\toks28
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-cropmar
+ks.tex
+\topcr@p=\box21
+\bottomcr@p=\box22
+\b@rder=\box23
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-toc.tex
+\t@cfile=\write1
+\tocc@l=\count41
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-tables.
+tex
+\cellb@x=\box24
+\t@talwidth=\dimen34
+\linec@unt=\count42
+\lct@mp=\count43
+\sp@re=\dimen35
+\exc@ss=\dimen36
+\thr@shold=\dimen37
+\nth@line=\count44
+\tabler@ws=\count45
+\maxtablec@l=\count46
+\tablec@l=\count47
+\@col=\count48
+\@row=\count49
+\allocatedtablec@ls=\count50
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-adj-lis
+t.tex
+\@djparindex=\count51
+\@djlist=\read4
+\curr@djpar=\count52
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-pic-lis
+t.tex
+\p@clist=\read5
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-cutouts
+.tex
+\@numcuts=\count53
+\@parshapelines=\count54
+\@index=\count55
+\@line=\count56
+\@after=\count57
+\@until=\count58
+\@width=\dimen38
+\@indent=\dimen39
+\@hsize=\dimen40
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptx-callers
+.tex
+\c@llernum=\count59
+\numc@llers=\count60
+\n@tepages=\write2
+\n@tepagetest=\read6
+\AutoCallerStartChar=\count61
+\AutoCallerNumChars=\count62
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Macro/usfmTex/ptxplus-cha
+racter-kerning.tex
+\quotekernamount=\dimen41
+)
+\he@dingnotes=\box25
+\f@@tstrut=\box26
+\RHruleposition=\dimen42
+\intern@teskip=\skip18
+\partial=\box27
+\galley=\box28
+\galleypenalty=\count63
+\trialheight=\dimen43
+\s@vedpage=\box29
+\availht=\dimen44
+\shortavail=\dimen45
+\colhtA=\dimen46
+\colhtB=\dimen47
+\colA=\box30
+\colB=\box31
+\columnshift=\dimen48
+\ColumnGutterRuleSkip=\dimen49
+\bottomins=\insert252
+\topleftins=\insert251
+\toprightins=\insert250
+\bottomleftins=\insert249
+\bottomrightins=\insert248
+\PicPath=\toks29
+\p@ramnumber=\count64
+\p@cwidth=\dimen50
+\totalp@ges=\count65
+\whichp@ge=\count66
+)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/TeX/usfmTex-preSty-ext.te
+x)
+Reading Paratext stylesheet "/home/superman/src/web-scriptureforge/Publishing/M
+AT/Style/usfmTex.sty"... \id \ide \h \h1 \h2 \h3 \toc1 \toc2 \toc3 \rem \sts
+\restore \imt \imt1 \imt2 \imt3 \imt4 \imte \imte1 \imte2 \is \is1 \is2 \iot
+\io \io1 \io2 \io3 \io4 \ior \ip \im \ipi \imi \ili \ili1 \ili2 \ipq \imq \ipr
+\ib \iq \iq1 \iq2 \iq3 \iex \iqt \ie \c \ca \cp \cl \cd \v \va \vp \p \m \pmo
+\pm \pmc \pmr \pi \pi1 \pi2 \pi3 \pc \mi \nb \cls \q \q1 \q2 \q3 \q4 \qc \qr
+\qs \qa \qac \qm \qm1 \qm2 \qm3 \b \mt \mt1 \mt2 \mt3 \mt4 \mte \mte1 \mte2
+\ms \ms1 \ms2 \ms3 \mr \s \s1 \s2 \s3 \s4 \sr \r \sp \d \tr \th1 \th2 \th3
+\th4 \th5 \tc1 \tc2 \tc3 \tc4 \tc5 \thc1 \thc2 \thc3 \thc4 \thc5 \tcc1 \tcc2
+\tcc3 \tcc4 \tcc5 \thr1 \thr2 \thr3 \thr4 \thr5 \tcr1 \tcr2 \tcr3 \tcr4 \tcr5
+\li \li1 \li2 \li3 \li4 \f
+\note-f=\insert247
+ \fe
+\note-fe=\insert246
+ \fr \ft \fk \fq \fqa \fl \fp \fv \fdc \fm \x
+\note-x=\insert245
+
+\xo \xt \xk \xq \xot \xnt \xdc \rq \qt \nd \tl \dc \bk \sig \pn \addpn \wj \k
+\sls \ord \add \lit \no \it \bd \bdit \em \sc \pb \fig \pro \w \wh \wg \ndx
+\periph \p1 \p2 \k1 \k2 \xtSee \xtSeeAlso \pr \ph \ph1 \ph2 \ph3 \phi \tr1
+\tr2 \ps \psi \fs \wr \pub \toc \pref \intro \conc \glo \idx \maps \cov \spine
+\pubinfo \zpa-xb \zpa-xc \zpa-xv \zpa-d
+Reading Paratext stylesheet "/home/superman/src/web-scriptureforge/Publishing/M
+AT/Style/usfmTex-ext.sty"...
+(/home/superman/src/web-scriptureforge/Publishing/MAT/TeX/usfmTex-settings.tex)
+(/home/superman/src/web-scriptureforge/Publishing/MAT/TeX/usfmTex-ext.tex
+\remblskip=\dimen51
+\remblskip=\dimen52
+\tbltwowlsetlabel=\dimen53
+\tbltwowllabel=\dimen54
+\tblthreewllabel=\dimen55
+)
+\openout0 = `GOSPEL.parlocs'.
+
+(no adjustment list "/home/superman/src/web-scriptureforge/Publishing/MAT/Compo
+nent/mat/mat_base.usfm.adj" found)
+(no picture list "/home/superman/src/web-scriptureforge/Publishing/MAT/Componen
+t/mat/mat_base.usfm.piclist" found)
+
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Component/mat/mat_base.us
+fm
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(444.00226+0.0)x175.70802
+.\vbox(444.00226+2.2891)x175.70802
+..\glue(\topskip) 5.13275
+..\hbox(6.86731+0.16106)x175.70802, glue set 144.16396fil
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\glue(\parskip) 0.0
+..\glue(\baselineskip) 4.47385
+..\hbox(7.36516+0.12201)x175.70802, glue set 94.4431fil
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(444.00226+0.0)x175.70802
+.\vbox(444.00226+2.2891)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.1766
+...\hbox(5.15045+0.12079)x8.44131, shifted -3.07108
+....\font<v> 16
+...\kern 1.66599
+...\penalty 10000
+...\glue 0.0
+...\font<p> And
+...etc.
+..\mark{Matthew::16}
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set 2.70377
+...\font<p> of
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<p> Mary,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<p> of
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\vbox(84.00043+0.0)x363.91093
+..\hbox(84.00043+0.0)x363.91093
+...\glue 0.0
+...\vbox(84.00043+0.0)x363.91093
+....\hbox(84.00043+0.0)x363.91093
+.....\vbox(84.00043+0.0)x363.91093
+......\mark{title}
+......\glue(\topskip) 12.00006
+......\hbox(0.0+0.0)x363.91093
+......\penalty 10000
+......\glue(\baselineskip) 12.00006
+......etc.
+.....\hbox(0.0+0.0)x0.0
+.....\glue 0.0 plus 1.0fil
+....\kern 0.0
+....\glue 0.0 plus 1.0fil
+.\glue(\lineskip) 0.0
+.\hbox(444.00226+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(444.00226+2.2891)x175.70802
+...\vbox(444.00226+2.2891)x175.70802
+....\glue(\topskip) 5.13275
+....\hbox(6.86731+0.16106)x175.70802, glue set 144.16396fil
+.....\hbox(0.0+0.0)x0.0
+.....\beginL
+.....\pdfsavepos
+.....\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+.....\endL
+.....etc.
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 4.47385
+....\hbox(7.36516+0.12201)x175.70802, glue set 94.4431fil
+.....\hbox(0.0+0.0)x0.0
+.....\beginL
+.....\pdfsavepos
+.....\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+.....\endL
+.....etc.
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[1]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+0.12201)x175.70802, glue set - 0.80449
+...\font<h> her
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> firstborn
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> son:
+...etc.
+..\penalty 10000
+..\glue(\baselineskip) 5.01074
+..\hbox(6.86731+0.16106)x175.70802, glue set 144.70508fil
+...\font<h> JESUS.
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parend {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.38263
+...\font<h> to
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Herod,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> they
+...etc.
+..\glue(\baselineskip) 1.48944
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.03528
+...\font<h> country
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> another
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> way.
+...etc.
+..\mark{Matthew:2:13}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.46321pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+1.6985)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+1.6985)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+0.12201)x175.70802, glue set - 0.80449
+.....\font<h> her
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> firstborn
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> son:
+.....etc.
+....\penalty 10000
+....\glue(\baselineskip) 5.01074
+....\hbox(6.86731+0.16106)x175.70802, glue set 144.70508fil
+.....\font<h> JESUS.
+.....\beginL
+.....\pdfsavepos
+.....\write0{\noexpand \@parend {\the \pdflastxpos }{\the \pdflastypos }}
+.....\endL
+.....etc.
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[2]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+2.17683)x175.70802, glue set 1.77219
+...\font<h> parts
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> of
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Galilee:
+...etc.
+..\mark{Matthew:2:23}
+..\penalty 0
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.17683)x175.70802, glue set 1.4965
+...\font<h> burn
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> up
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> the
+...etc.
+..\penalty 10000
+..\glue(\baselineskip) 2.45807
+..\hbox(7.36516+0.12201)x175.70802, glue set 157.81496fil
+...\font<h> fire.
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parend {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+2.17683)x175.70802, glue set 1.77219
+.....\font<h> parts
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> of
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> Galilee:
+.....etc.
+....\mark{Matthew:2:23}
+....\penalty 0
+....\penalty 10000
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[3]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.17683)x175.70802, glue set - 0.15448
+...\font<h> thee,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> if
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> thou
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 1.6017
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 3.76918
+...\font<h> Syria:
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> they
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.17683)x175.70802, glue set 1.95598
+...\font<h> all
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> sick
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> people
+...etc.
+..\glue(\baselineskip) 2.45807
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.17683)x175.70802, glue set - 0.15448
+.....\font<h> thee,
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> if
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> thou
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 1.6017
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[4]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+0.12201)x175.70802, glue set 1.01102
+...\font<h> that
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> is
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> set
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 3.65652
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (0.12201pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+0.12201)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.07463
+...\font<h> deliver
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> thee
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> to
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+1.6985)x175.70802, glue set 0.43036
+...\font<h> deliver
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> thee
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> to
+...etc.
+..\glue(\baselineskip) 2.08003
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+[5]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+0.12201)x175.70802, glue set 1.88115
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\mark{Matthew:5:38}
+..\penalty 10000
+..\glue(\baselineskip) 4.5129
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.23273
+...\font<h> may
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> be
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> in
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+0.12201)x175.70802, glue set - 0.43356
+...\font<h> seeth
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> in
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> secret
+...etc.
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.94154pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.17683)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.17683)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+0.12201)x175.70802, glue set 1.88115
+.....\hbox(0.0+0.0)x0.0
+.....\beginL
+.....\pdfsavepos
+.....\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+.....\endL
+.....etc.
+....\mark{Matthew:5:38}
+....\penalty 10000
+....\glue(\baselineskip) 4.5129
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[6]
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.44083
+...\font<h> unto
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> thy
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Father
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.04955
+...\font<add> shall
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<add> he
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\penalty 10000
+...etc.
+..\glue(\baselineskip) 1.48944
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.23473
+...\font<h> ye
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> of
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> little
+...etc.
+..\mark{Matthew:6:31}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+1.6985)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 0.44083
+.....\font<h> unto
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> thy
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> Father
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.34581
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[7]
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.8019
+...\font<h> how
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> much
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> more
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.17683)x175.70802, glue set 0.30197
+...\font<h> and
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> it
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> fell
+...etc.
+..\glue(\baselineskip) 1.6017
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.31711
+...\font<h> a
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> rock.
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\penalty 10000
+...etc.
+..\mark{Matthew:7:26}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.46321pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+1.6985)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+1.6985)x175.70802
+...\vbox(528.00269+2.17683)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set - 0.8019
+.....\font<h> how
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> much
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> more
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.34581
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[8]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.60074
+..\hbox(7.39932+1.75708)x175.70802, glue set 2.56932
+...\font<h> heard
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<add> it,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> he
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.87782
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+0.12201)x175.70802, glue set 1.5206
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\mark{Matthew:8:23}
+..\penalty 10000
+..\glue(\baselineskip) 3.65652
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.60074
+....\hbox(7.39932+1.75708)x175.70802, glue set 2.56932
+.....\font<h> heard
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<add> it,
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> he
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.87782
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[9]
+Overfull \vbox (0.16106pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+0.16106)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 2.53133
+...\font<h> him
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> a
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> man
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.99948
+...\font<h> mourn,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> as
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> long
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.30806
+...\font<h> them?
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> but
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> the
+...etc.
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+0.16106)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 2.53133
+.....\font<h> him
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> a
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> man
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.34581
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[10]
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+1.6985)x175.70802, glue set 0.69987
+...\font<h> into
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> house,
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.9364
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+1.6985)x175.70802, glue set 2.69972
+...\font<h> Bartholomew;
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Thomas,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...etc.
+..\glue(\baselineskip) 2.9364
+..\hbox(7.36516+2.17683)x175.70802, glue set - 0.98274
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> publican;
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> James
+...etc.
+..\glue(\baselineskip) 2.45807
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.17683)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+1.6985)x175.70802, glue set 0.69987
+.....\font<h> into
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> the
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> house,
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.9364
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[11]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.5675
+...\font<h> up,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> take
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> no
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.32654
+...\font<h> also
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> deny
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> before
+...etc.
+..\glue(\baselineskip) 1.48944
+..\hbox(8.22153+0.12201)x175.70802, glue set 0.72864
+...\font<h> heaven.
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\penalty 10000
+...\font<h> *
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...etc.
+..\mark{Matthew:10:34}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.46321pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+1.6985)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+1.6985)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 1.5675
+.....\font<h> up,
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> take
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> no
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.34581
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[12]
+Overfull \vbox (0.12201pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+0.12201)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.0613
+...\font<h> raised
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> up,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 1.48944
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.75708pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.75708)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set - 0.12663
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\mark{Matthew:11:20}
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.52179pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+1.75708)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+1.75708)x175.70802
+...\vbox(528.00269+0.12201)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 0.0613
+.....\font<h> raised
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> up,
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> and
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 1.48944
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[13]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.83774
+...\font<h> they
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> said
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> unto
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 1.27496
+...\font<h> make
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> him
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> known:
+...etc.
+..\mark{Matthew:12:17}
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.54689
+...\font<h> fulfilled
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> which
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> was
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set - 0.83774
+.....\font<h> they
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> said
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> unto
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.34581
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[14]
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\topskip) 4.60074
+..\hbox(7.39932+2.2891)x175.70802, glue set 0.65698
+...\font<add> against
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\penalty 10000
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 1.48944
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\splittopskip) 4.60074
+..\hbox(7.39932+2.2891)x175.70802, glue set 2.0237
+...\font<h> a
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> greater
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> than
+...etc.
+..\glue(\baselineskip) 1.48944
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.9144
+...\hbox(5.15045+0.12079)x8.44131, shifted -3.07108
+....\font<v> 43
+...\kern 1.66599
+...\penalty 10000
+...\glue 0.0
+...\penalty 10000
+...etc.
+..\mark{Matthew:12:43}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.94154pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.17683)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.17683)x175.70802
+...\vbox(528.00269+1.6985)x175.70802
+....\glue(\topskip) 4.60074
+....\hbox(7.39932+2.2891)x175.70802, glue set 0.65698
+.....\font<add> against
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\penalty 10000
+.....\font<h> the
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 1.48944
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[15]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.73264
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> sun
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> was
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\splittopskip) 4.60074
+..\hbox(7.39932+1.6985)x175.70802, glue set 2.22585
+...\font<h> understandeth
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\penalty 10000
+...\font<h> *
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...etc.
+..\glue(\baselineskip) 2.9364
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.26764
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> wicked
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\penalty 10000
+...etc.
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.46321pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+1.6985)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+1.6985)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 1.73264
+.....\font<h> the
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> sun
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> was
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.34581
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[16]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.90163
+...\font<h> burn
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> them:
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> but
+...etc.
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+0.12201)x175.70802, glue set 147.7019fil
+...\font<h> barn.
+...\penalty 10000
+...\font<h> *
+...\beginL
+...\pdfsavepos
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 1.22997
+...\font<h> of
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> teeth.
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\penalty 10000
+...etc.
+..\mark{Matthew:13:43}
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.19205
+...\font<h> shine
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> forth
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> as
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set - 0.90163
+.....\font<h> burn
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> them:
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> but
+.....etc.
+....\penalty 10000
+....\glue(\baselineskip) 2.34581
+....\hbox(7.36516+0.12201)x175.70802, glue set 147.7019fil
+.....\font<h> barn.
+.....\penalty 10000
+.....\font<h> *
+.....\beginL
+.....\pdfsavepos
+.....etc.
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[17]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+1.6985)x175.70802, glue set - 0.37592
+...\font<h> Joses,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Simon,
+...etc.
+..\mark{Matthew:13:56}
+..\penalty 0
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+1.6985)x175.70802, glue set 0.13606
+...\font<h> cities.
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\hbox(5.15045+0.12079)x8.44131, shifted -3.07108
+....\font<v> 14
+...\kern 1.66599
+...\penalty 10000
+...etc.
+..\mark{Matthew:14:14}
+..\glue(\baselineskip) 2.9364
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.16818
+...\font<h> a
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> great
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> multitude,
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.46321pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+1.6985)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+1.6985)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+1.6985)x175.70802, glue set - 0.37592
+.....\font<h> Joses,
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> and
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> Simon,
+.....etc.
+....\mark{Matthew:13:56}
+....\penalty 0
+....\penalty 10000
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[18]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+0.12201)x175.70802, glue set 0.07281
+...\font<h> come
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> unto
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> thee
+...etc.
+..\mark{Matthew:14:29}
+..\penalty 0
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 3.89934
+..\hbox(8.10072+2.2891)x175.70802, glue set 0.1748
+...\font<h> your
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> tradition.
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\penalty 10000
+...etc.
+..\mark{Matthew:15:7}
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.41098
+...\font<h> did
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Esaias
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> prophesy
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+0.12201)x175.70802, glue set 0.07281
+.....\font<h> come
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> unto
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> thee
+.....etc.
+....\mark{Matthew:14:29}
+....\penalty 0
+....\penalty 10000
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[19]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.0425
+...\font<h> David;
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> my
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> daughter
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 1.48944
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+0.12201)x175.70802, glue set 0.29927
+...\hbox(5.15045+0.12079)x8.44131, shifted -3.07108
+....\font<v> 35
+...\kern 1.66599
+...\penalty 10000
+...\glue 0.0
+...\font<h> And
+...etc.
+..\mark{Matthew:15:35}
+..\glue(\baselineskip) 3.65652
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.22568
+...\font<h> sit
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> down
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> on
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.94154pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.17683)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.17683)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 0.0425
+.....\font<h> David;
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> my
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> daughter
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 1.48944
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[20]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.5643
+...\font<h> of
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> four
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 1.48944
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+1.6985)x175.70802, glue set - 0.04005
+...\font<h> shall
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> not
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> be
+...etc.
+..\mark{Matthew:16:23}
+..\glue(\baselineskip) 2.9364
+..\hbox(7.36516+1.6985)x175.70802, glue set - 0.83305
+...\font<h> and
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> said
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> unto
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.46321pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+1.6985)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+1.6985)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 1.5643
+.....\font<h> of
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> the
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> four
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 1.48944
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[21] [22]
+Overfull \vbox (0.12201pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+0.12201)x175.70802
+..\glue(\topskip) 3.89934
+..\hbox(8.10072+0.16106)x175.70802, glue set 3.14722
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\mark{Matthew:18:7}
+..\penalty 10000
+..\glue(\baselineskip) 4.47385
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 1.3592
+...\font<h> man
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> a
+...etc.
+..\mark{Matthew:18:18}
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.5543
+...\font<h> unto
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> you,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Whatsoever
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.94154pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.17683)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.17683)x175.70802
+...\vbox(528.00269+0.12201)x175.70802
+....\glue(\topskip) 3.89934
+....\hbox(8.10072+0.16106)x175.70802, glue set 3.14722
+.....\hbox(0.0+0.0)x0.0
+.....\beginL
+.....\pdfsavepos
+.....\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+.....\endL
+.....etc.
+....\mark{Matthew:18:7}
+....\penalty 10000
+....\glue(\baselineskip) 4.47385
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[23]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 1.05759
+...\font<h> should
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> pay
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> the
+...etc.
+..\mark{Matthew:18:31}
+..\penalty 0
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\splittopskip) 4.60074
+..\hbox(7.39932+2.17683)x175.70802, glue set 0.63083
+...\font<h> his
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> wife,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> except
+...etc.
+..\glue(\baselineskip) 2.45807
+..\hbox(7.36516+2.2891)x175.70802, glue set 2.09729
+...\font<h> and
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> shall
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> marry
+...etc.
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.94154pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.17683)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.17683)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+2.2891)x175.70802, glue set 1.05759
+.....\font<h> should
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> pay
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> the
+.....etc.
+....\mark{Matthew:18:31}
+....\penalty 0
+....\penalty 10000
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[24]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+0.12201)x175.70802, glue set - 0.24017
+...\font<h> in
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> heaven:
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 3.65652
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.39783
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> vineyard,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.68727
+...\font<h> I
+...\glue 2.92848 plus 1.46277 minus 0.97713
+...\font<h> will
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> give
+...etc.
+..\glue(\baselineskip) 1.61024
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+0.12201)x175.70802, glue set - 0.24017
+.....\font<h> in
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> heaven:
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> and
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 3.65652
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[25]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+1.6985)x175.70802, glue set 1.15329
+...\font<h> condemn
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> him
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> to
+...etc.
+..\mark{Matthew:20:19}
+..\penalty 0
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+0.12201)x175.70802, glue set 2.37244
+...\font<h> David.
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\hbox(5.15045+0.12079)x8.44131, shifted -3.07108
+....\font<v> 31
+...\kern 1.66599
+...\penalty 10000
+...etc.
+..\mark{Matthew:20:31}
+..\glue(\baselineskip) 4.5129
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.5625
+...\font<h> them,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> because
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> they
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+1.6985)x175.70802, glue set 1.15329
+.....\font<h> condemn
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> him
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> to
+.....etc.
+....\mark{Matthew:20:19}
+....\penalty 0
+....\penalty 10000
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[26]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.17683)x175.70802, glue set - 0.56773
+...\font<h> multitude
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> said,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> This
+...etc.
+..\penalty 10000
+..\glue(\baselineskip) 2.45807
+..\hbox(7.36516+0.16106)x175.70802, glue set 75.9881fil
+...\font<h> of
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Nazareth
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> of
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+0.12201)x175.70802, glue set 1.61948
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\mark{Matthew:21:23}
+..\penalty 10000
+..\glue(\baselineskip) 4.5129
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.17683)x175.70802, glue set - 0.56773
+.....\font<h> multitude
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> said,
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> This
+.....etc.
+....\penalty 10000
+....\glue(\baselineskip) 2.45807
+....\hbox(7.36516+0.16106)x175.70802, glue set 75.9881fil
+.....\font<h> of
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> Nazareth
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> of
+.....etc.
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[27]
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+1.6985)x175.70802, glue set 0.50845
+...\font<h> a
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> tower,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.08003
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.6985pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.6985)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.17683)x144.50682, glue set 1.39594, shifted 31.2012
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\mark{Matthew:22:1}
+..\penalty 10000
+..\glue(\baselineskip) 2.45807
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (1.46321pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+1.6985)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+1.6985)x175.70802
+...\vbox(528.00269+2.17683)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+1.6985)x175.70802, glue set 0.50845
+.....\font<h> a
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> tower,
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> and
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.08003
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[28]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+1.6985)x175.70802, glue set 0.50403
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\mark{Matthew:22:15}
+..\penalty 10000
+..\glue(\baselineskip) 2.9364
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.44763
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> resurrection
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> of
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.17683)x175.70802, glue set 1.30875
+...\font<h> not
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> read
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> that
+...etc.
+..\glue(\baselineskip) 1.6017
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+1.6985)x175.70802, glue set 0.50403
+.....\hbox(0.0+0.0)x0.0
+.....\beginL
+.....\pdfsavepos
+.....\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+.....\endL
+.....etc.
+....\mark{Matthew:22:15}
+....\penalty 10000
+....\glue(\baselineskip) 2.9364
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[29]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 1.73648
+...\font<h> *
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\hbox(5.15045+0.12079)x4.22066, shifted -3.07108
+....\font<v> 4
+...\kern 1.66599
+...\penalty 10000
+...etc.
+..\mark{Matthew:23:4}
+..\penalty 0
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 2.0265
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> temple
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> that
+...etc.
+..\glue(\baselineskip) 1.48944
+..\hbox(8.22153+2.2891)x175.70802, glue set 2.5873
+...\font<h> *
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\hbox(5.15045+0.12079)x8.44131, shifted -3.07108
+....\font<v> 18
+...\kern 1.66599
+...\penalty 10000
+...etc.
+..\mark{Matthew:23:18}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+2.2891)x175.70802, glue set 1.73648
+.....\font<h> *
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\hbox(5.15045+0.12079)x4.22066, shifted -3.07108
+......\font<v> 4
+.....\kern 1.66599
+.....\penalty 10000
+.....etc.
+....\mark{Matthew:23:4}
+....\penalty 0
+....\penalty 10000
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[30]
+Overfull \vbox (2.17683pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.17683)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.17683)x175.70802, glue set 1.09819
+...\font<h> have
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> been
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> partakers
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 1.6017
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.85051
+...\font<h> privately,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> saying,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> Tell
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.55988
+...\font<h> these
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> things
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> be?
+...etc.
+..\glue(\baselineskip) 2.34581
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.17683)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.17683)x175.70802, glue set 1.09819
+.....\font<h> have
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> been
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> partakers
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 1.6017
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[31]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.3343
+...\font<h> winter,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> neither
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> on
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 1.48944
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (0.12201pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+0.12201)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+1.6985)x175.70802, glue set 1.19621
+...\font<h> that
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> it
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> is
+...etc.
+..\glue(\baselineskip) 2.08003
+..\hbox(8.22153+2.2891)x175.70802, glue set - 0.30254
+...\hbox(5.15045+0.12079)x8.44131, shifted -3.07108
+....\font<v> 34
+...\kern 1.66599
+...\penalty 10000
+...\glue 0.0
+...\penalty 10000
+...etc.
+..\mark{Matthew:24:34}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+[32]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.91032
+...\font<h> in
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> a
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> day
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.31165
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.3686
+...\font<h> straightway
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> took
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> his
+...etc.
+..\mark{Matthew:25:16}
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+0.12201)x175.70802, glue set 1.85431
+...\font<h> he
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> that
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> had
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 1.91032
+.....\font<h> in
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> a
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> day
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.31165
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[33]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.26263
+...\font<h> therefore
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> the
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> talent
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.31165
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.5975
+...\font<h> was
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> an
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> hungred,
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.3637
+...\font<h> meat:
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> I
+...\glue 2.92848 plus 1.46277 minus 0.97713
+...\font<h> was
+...etc.
+..\glue(\baselineskip) 1.48944
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 0.26263
+.....\font<h> therefore
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> the
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> talent
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 2.31165
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[34]
+Overfull \vbox (1.75708pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+1.75708)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.59288
+...\font<h> but
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> me
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> ye
+...etc.
+..\mark{Matthew:26:12}
+..\penalty 0
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (0.16106pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+0.16106)x175.70802
+..\glue(\splittopskip) 4.60074
+..\hbox(7.39932+2.2891)x175.70802, glue set 0.35939
+...\font<h> gave
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<add> it
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> to
+...etc.
+..\glue(\baselineskip) 1.48944
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.94247
+...\font<h> eat;
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> this
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> is
+...etc.
+..\mark{Matthew:26:27}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+[35]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.18707
+...\font<h> pray,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> that
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> ye
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 2.31165
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (0.12201pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+0.12201)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.11588
+...\font<h> and
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> staves
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> for
+...etc.
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set - 0.1902
+...\font<h> with
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> you
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> teaching
+...etc.
+..\glue(\baselineskip) 1.48944
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+[36]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+2.17683)x175.70802, glue set - 0.88248
+...\hbox(0.0+0.0)x0.0
+...\beginL
+...\pdfsavepos
+...\write0{\noexpand \@parstart {\the \pdflastxpos }{\the \pdflastypos }}
+...\endL
+...etc.
+..\mark{Matthew:26:69}
+..\penalty 10000
+..\glue(\baselineskip) 2.45807
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (0.16106pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+0.16106)x175.70802
+..\glue(\splittopskip) 3.77853
+..\hbox(8.22153+2.2891)x175.70802, glue set 1.42778
+...\font<h> to
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> bury
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> strangers
+...etc.
+..\mark{Matthew:27:8}
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+1.6985)x175.70802, glue set 2.21931
+...\font<h> field
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> was
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> called,
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+[37]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.52464
+...\font<h> Christ?
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<add> They
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> all
+...etc.
+..\penalty 0
+..\penalty 10000
+..\glue(\baselineskip) 1.48944
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 0.4493
+...\font<h> among
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> them,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> and
+...etc.
+..\glue(\baselineskip) 1.48944
+..\hbox(8.22153+2.2891)x175.70802, glue set 0.37718
+...\font<h> they
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> cast
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> lots.
+...etc.
+..\mark{Matthew:27:36}
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 4.6349
+....\hbox(7.36516+2.2891)x175.70802, glue set 0.52464
+.....\font<h> Christ?
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<add> They
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> all
+.....etc.
+....\penalty 0
+....\penalty 10000
+....\glue(\baselineskip) 1.48944
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[38]
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\topskip) 3.77853
+..\hbox(8.22153+2.17683)x175.70802, glue set 1.10385
+...\font<h> which
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> slept
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> arose,
+...etc.
+..\mark{Matthew:27:53}
+..\penalty 0
+..\penalty 10000
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.2891pt too high) has occurred while \output is active
+\vbox(528.00269+0.0)x175.70802
+.\vbox(528.00269+2.2891)x175.70802
+..\glue(\splittopskip) 4.6349
+..\hbox(7.36516+2.2891)x175.70802, glue set 1.3645
+...\font<h> sepulchre
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> sure,
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> sealing
+...etc.
+..\penalty 10000
+..\glue(\baselineskip) 2.34581
+..\hbox(7.36516+2.2891)x175.70802, glue set 105.64392fil
+...\font<h> setting
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> a
+...\glue 2.92848 plus 1.46423 minus 0.97615
+...\font<h> watch.
+...etc.
+..etc.
+.\glue 0.0 plus 1.0fil
+
+
+Overfull \vbox (2.0538pt too high) has occurred while \output is active
+\vbox(528.23798+0.0)x363.91093
+.\hbox(528.00269+2.2891)x363.91093, glue set 6.24745fil
+..\hbox(0.0+0.0)x0.0
+..\vbox(528.00269+2.2891)x175.70802
+...\vbox(528.00269+2.2891)x175.70802
+....\glue(\topskip) 3.77853
+....\hbox(8.22153+2.17683)x175.70802, glue set 1.10385
+.....\font<h> which
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> slept
+.....\glue 2.92848 plus 1.46423 minus 0.97615
+.....\font<h> arose,
+.....etc.
+....\mark{Matthew:27:53}
+....\penalty 0
+....\penalty 10000
+....etc.
+...\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\glue 0.0 plus 1.0fil
+..\hbox(0.0+0.0)x0.0
+..etc.
+.\kern 0.0
+.\glue 0.0 plus 1.0fil
+
+
+[39]) [40]
+\openout0 = `GOSPEL.delayed'.
+
+
+(/home/superman/src/web-scriptureforge/Publishing/MAT/Component/GOSPEL/GOSPEL.p
+arlocs) )
+Output written on /home/superman/src/web-scriptureforge/Publishing/MAT/Componen
+t/GOSPEL/GOSPEL.pdf (40 pages).
