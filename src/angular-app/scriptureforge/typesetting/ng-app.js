@@ -6,7 +6,8 @@ angular.module('typesetting',
           'bellows.filters',
           'typesetting.typeset',
           'typesetting.review',
-        'typesetting.projectSetupLayout'
+          'typesetting.services',
+          'typesetting.projectSetupLayout'
 
 
     ])

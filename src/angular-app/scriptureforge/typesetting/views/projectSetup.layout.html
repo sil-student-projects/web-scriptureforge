@@ -14,466 +14,466 @@
 
     <br />
 
-<!--     DEBUG INFO -->
-<!--     <ul style="width: 100%;"> -->
-<!--       <li data-ng-repeat="(k, v) in conf" style="float: left; width: 25%; font-size: xx-small;"> -->
-<!--         {{ k }} : {{ v }} -->
-<!--       </li> -->
-<!--     </ul> -->
-<!--     <div style="height: 200px;"/> -->
-<!--     END DEBUG INFO -->
+    <!--     DEBUG INFO -->
+    <!--     <ul style="width: 100%;"> -->
+    <!--       <li data-ng-repeat="(k, v) in conf" style="float: left; width: 25%; font-size: xx-small;"> -->
+    <!--         {{ k }} : {{ v }} -->
+    <!--       </li> -->
+    <!--     </ul> -->
+    <!--     <div style="height: 200px;"/> -->
+    <!--     END DEBUG INFO -->
 
 
     <div data-ng-controller="templateCtrl">
-                {{currentPath}}
-                <div class='row'>
-                    <div class="pull-right">
-                        <button id="layout-save-button" class="btn btn-default" data-ng-click="uncollapseDivs('save')">
-                            Save Template
-                        </button>
-                        <button id="layout-load-button" class="btn btn-default" data-ng-click="uncollapseDivs('load')">
-                            Load Template
-                        </button>
-                    </div>
+        {{currentPath}}
+        <div class='row'>
+            <div class="pull-right">
+                <button id="layout-save-button" class="btn btn-default" data-ng-click="uncollapseDivs('save')">
+                    Save Template
+                </button>
+                <button id="layout-load-button" class="btn btn-default" data-ng-click="uncollapseDivs('load')">
+                    Load Template
+                </button>
+            </div>
+        </div>
+        <div class='row'>
+            <div class="pull-right">
+                <div id="loadTemplateDiv" data-collapse="loadTemplateCollapsed">
+                    <form class="well form-inline">
+                        <input type="text" id="loadTemplateName" placeholder="Template Name..." data-ng-model="loadTemplateName">
+                        <button id="save" data-ng-click="handleLoadClick()" class="btn btn-default btn-sm" data-ng-disabled="loadTemplateName < 1"><i class="glyphicon glyphicon-folder-open"></i>Load</button>
+                    </form>
                 </div>
-                <div class='row'>
-                    <div class="pull-right">
-                        <div id="loadTemplateDiv" data-collapse="loadTemplateCollapsed">
-                            <form class="well form-inline">
-                               <input type="text" id="loadTemplateName" placeholder="Template Name..." data-ng-model="loadTemplateName">
-                               <button id="save" data-ng-click="handleLoadClick()" class="btn btn-default btn-sm" data-ng-disabled="loadTemplateName < 1"><i class="glyphicon glyphicon-folder-open"></i>Load</button>
-                            </form>
-                        </div>
-                
-                        <div id="saveTemplateDiv" data-collapse="saveTemplateCollapsed">
-                            <form class="well form-inline">
-                               <input type="text" id="saveTemplateName" placeholder="Template Name..." data-ng-model="saveTemplateName">
-                               <button id="load" data-ng-click="handleSaveClick()" class="btn btn-default btn-sm" data-ng-disabled="saveTemplateName < 1"><i class="icon-ok"></i>Save</button>
-                            </form>
-                        </div>
-                     </div>
+
+                <div id="saveTemplateDiv" data-collapse="saveTemplateCollapsed">
+                    <form class="well form-inline">
+                        <input type="text" id="saveTemplateName" placeholder="Template Name..." data-ng-model="saveTemplateName">
+                        <button id="load" data-ng-click="handleSaveClick()" class="btn btn-default btn-sm" data-ng-disabled="saveTemplateName < 1"><i class="icon-ok"></i>Save</button>
+                    </form>
                 </div>
+            </div>
+        </div>
     </div>
 
     <form name="layoutForm" novalidate>
-    <tabset style="text-align: center;"> 
-        <tab heading="Margins" class="form-group"> 
-            <br />
-            <div class="row">
-                <div class="col-md-3">
-                    <label for="insideMarginInput">Inside Margin</label>
-                    <input class="form-control" type="number"
-                        data-ng-model="conf.insideMargin" id="insideMarginInput" />
+        <tabset style="text-align: center;">
+            <tab heading="Margins" class="form-group">
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="insideMarginInput">Inside Margin</label>
+                        <input class="form-control" type="number"
+                               data-ng-model="conf.insideMargin" id="insideMarginInput" />
+                    </div>
+                    <div class="col-md-3">
+                        <label for="outsideMarginInput">Outside Margin</label>
+                        <input class="form-control" type="number"
+                               data-ng-model="conf.outsideMargin" id="outsideMarginInput" />
+                    </div>
+                    <div class="col-md-3">
+                        <label for="topMarginInput">Top Margin</label>
+                        <input class="form-control" type="number" data-ng-model="conf.topMargin"
+                               id="topMarginInput" />
+                    </div>
+                    <div class="col-md-3">
+                        <label for="bottomMarginInput">Bottom Margin</label>
+                        <input class="form-control" type="number"
+                               data-ng-model="conf.bottomMargin" id="bottomMarginInput" />
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <label for="outsideMarginInput">Outside Margin</label>
-                    <input class="form-control" type="number"
-                        data-ng-model="conf.outsideMargin" id="outsideMarginInput" />
+                <br />
+            </tab>
+            <tab heading="Columns" class="form-group">
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.titleColumnsTwo" id="titleColumnsTwoInput">Two Title Columns
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.introColumnsTwo" id="introColumnsTwoInput">Two Intro Columns
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.bodyColumnsTwo" id="bodyColumnsTwoInput">Two Body Columns
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="columnShiftInput">Column Shift</label>
+                        <input class="form-control" type="number" data-ng-model="conf.columnShift" id="columnShiftInput" data-ng-disabled="!conf.bodyColumnsTwo" />
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.columnGutterRule" id="columnGutterRuleInput">Body Column Rule
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="columnGutterRuleSkipInput">Column Gutter Rule Skip</label>
+                        <input class="form-control" type="number" data-ng-model="conf.columnGutterRuleSkip" id="columnGutterRuleSkipInput" data-ng-disabled="!conf.columnGutterRule" />
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <label for="topMarginInput">Top Margin</label>
-                    <input class="form-control" type="number" data-ng-model="conf.topMargin"
-                        id="topMarginInput" />
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <label for="columnGutterFactorInput">Column Gutter Size</label>
+                        <input class="form-control" type="number" data-ng-model="conf.columnGutterFactor" id="columnGutterFactorInput" />
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <label for="bottomMarginInput">Bottom Margin</label>
-                    <input class="form-control" type="number"
-                        data-ng-model="conf.bottomMargin" id="bottomMarginInput" />
-                </div>
-            </div>
-            <br />
-        </tab>
-        <tab heading="Columns" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.titleColumnsTwo" id="titleColumnsTwoInput">Two Title Columns
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.introColumnsTwo" id="introColumnsTwoInput">Two Intro Columns
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.bodyColumnsTwo" id="bodyColumnsTwoInput">Two Body Columns
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label for="columnShiftInput">Column Shift</label>
-                    <input class="form-control" type="number" data-ng-model="conf.columnShift" id="columnShiftInput" data-ng-disabled="!conf.bodyColumnsTwo" />
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.columnGutterRule" id="columnGutterRuleInput">Body Column Rule
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label for="columnGutterRuleSkipInput">Column Gutter Rule Skip</label>
-                    <input class="form-control" type="number" data-ng-model="conf.columnGutterRuleSkip" id="columnGutterRuleSkipInput" data-ng-disabled="!conf.columnGutterRule" />
-                </div>
-            </div>
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label for="columnGutterFactorInput">Column Gutter Size</label>
-                    <input class="form-control" type="number" data-ng-model="conf.columnGutterFactor" id="columnGutterFactorInput" />
-                </div>
-            </div>
-            <br />
-        </tab>
-        <tab heading="Header" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.useRunningHeader" id="useRunningHeaderInput">Running Header
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label for="headerPositionInput">Header Position</label>
-                    <input class="form-control" type="number" data-ng-model="conf.headerPosition" id="headerPositionInput" />
-                </div>
-                <div class="col-md-2">
-                    <label for="headerPositionRuleInput">Running Header Rule Position</label>
-                    <div class="input-group">
+                <br />
+            </tab>
+            <tab heading="Header" class="form-group">
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.useRunningHeader" id="useRunningHeaderInput">Running Header
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="headerPositionInput">Header Position</label>
+                        <input class="form-control" type="number" data-ng-model="conf.headerPosition" id="headerPositionInput" />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="headerPositionRuleInput">Running Header Rule Position</label>
+                        <div class="input-group">
                           <span class="input-group-addon">
                             <input type="checkbox" data-ng-model="conf.useRunningHeaderRule" id="useRunningHeaderRuleInput">
                           </span>
-                          <input class="form-control" type="number" data-ng-model="conf.runningHeaderRulePosition" id="headerPositionRuleInput" data-ng-disabled="!conf.useRunningHeaderRule">
+                            <input class="form-control" type="number" data-ng-model="conf.runningHeaderRulePosition" id="headerPositionRuleInput" data-ng-disabled="!conf.useRunningHeaderRule">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.omitChapterNumberRH" id="omitChapterNumberRHInput">Omit Chapter Number Running Header
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.showVerseReferences" id="showVerseReferencesInput">Show Verse References
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.omitBookReference" id="omitBookReferenceInput">Omit Book Reference
-                    </label>
-                </div>
-            </div>
-            <br />
-            <div class="well">
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="runningHeaderTitleLeftInput">Running Header Title Left</label>
-                        <select class="form-control" id="runningHeaderTitleLeftInput" data-ng-model="conf.runningHeaderTitleLeft" data-ng-options="item for item in headerOptions"></select>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.omitChapterNumberRH" id="omitChapterNumberRHInput">Omit Chapter Number Running Header
+                        </label>
                     </div>
-                    <div class="col-md-4">
-                        <label for="runningHeaderTitleCenterInput">Running Header Title Center</label>
-                        <select class="form-control" id="runningHeaderTitleCenterInput" data-ng-model="conf.runningHeaderTitleCenter" data-ng-options="item for item in headerOptions"></select>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.showVerseReferences" id="showVerseReferencesInput">Show Verse References
+                        </label>
                     </div>
-                    <div class="col-md-4">
-                        <label for="runningHeaderTitleRightInput">Running Header Title Right</label>
-                        <select class="form-control" id="runningHeaderTitleRightInput" data-ng-model="conf.runningHeaderTitleRight" data-ng-options="item for item in headerOptions"></select>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.omitBookReference" id="omitBookReferenceInput">Omit Book Reference
+                        </label>
                     </div>
                 </div>
                 <br />
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="runningHeaderEvenLeftInput">Running Header Even Left</label>
-                        <select class="form-control" id="runningHeaderEvenLeftInput" data-ng-model="conf.runningHeaderEvenLeft" data-ng-options="item for item in headerOptions"></select>
+                <div class="well">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="runningHeaderTitleLeftInput">Running Header Title Left</label>
+                            <select class="form-control" id="runningHeaderTitleLeftInput" data-ng-model="conf.runningHeaderTitleLeft" data-ng-options="item for item in headerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningHeaderTitleCenterInput">Running Header Title Center</label>
+                            <select class="form-control" id="runningHeaderTitleCenterInput" data-ng-model="conf.runningHeaderTitleCenter" data-ng-options="item for item in headerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningHeaderTitleRightInput">Running Header Title Right</label>
+                            <select class="form-control" id="runningHeaderTitleRightInput" data-ng-model="conf.runningHeaderTitleRight" data-ng-options="item for item in headerOptions"></select>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <label for="runningHeaderEvenCenterInput">Running Header Even Center</label>
-                        <select class="form-control" id="runningHeaderEvenCenterInput" data-ng-model="conf.runningHeaderEvenCenter" data-ng-options="item for item in headerOptions"></select>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="runningHeaderEvenLeftInput">Running Header Even Left</label>
+                            <select class="form-control" id="runningHeaderEvenLeftInput" data-ng-model="conf.runningHeaderEvenLeft" data-ng-options="item for item in headerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningHeaderEvenCenterInput">Running Header Even Center</label>
+                            <select class="form-control" id="runningHeaderEvenCenterInput" data-ng-model="conf.runningHeaderEvenCenter" data-ng-options="item for item in headerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningHeaderEvenRightInput">Running Header Even Right</label>
+                            <select class="form-control" id="runningHeaderEvenRightInput" data-ng-model="conf.runningHeaderEvenRight" data-ng-options="item for item in headerOptions"></select>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <label for="runningHeaderEvenRightInput">Running Header Even Right</label>
-                        <select class="form-control" id="runningHeaderEvenRightInput" data-ng-model="conf.runningHeaderEvenRight" data-ng-options="item for item in headerOptions"></select>
-                    </div>
-                </div>
-                <br />
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="runningHeaderOddLeftInput">Running Header Odd Left</label>
-                        <select class="form-control" id="runningHeaderOddLeftInput" data-ng-model="conf.runningHeaderOddLeft" data-ng-options="item for item in headerOptions"></select>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="runningHeaderOddCenterInput">Running Header Odd Center</label>
-                        <select class="form-control" id="runningHeaderOddCenterInput" data-ng-model="conf.runningHeaderOddCenter" data-ng-options="item for item in headerOptions"></select>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="runningHeaderOddRightInput">Running Header Odd Right</label>
-                        <select class="form-control" id="runningHeaderOddRightInput" data-ng-model="conf.runningHeaderOddRight" data-ng-options="item for item in headerOptions"></select>
-                    </div>
-                </div>
-              </div>
-              <br />
-        </tab>
-        <tab heading="Footer" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.useRunningFooter" id="useRunningFooterInput">Running Footer
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label for="footerPositionInput">Footer Position</label>
-                    <input class="form-control" type="number" data-ng-model="conf.footerPosition" id="footerPositionInput" />
-                </div>
-            </div>
-            <br />
-            <div class="well">
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="runningFooterTitleLeftInput">Running Footer Title Left</label>
-                        <select class="form-control" id="runningFooterTitleLeftInput" data-ng-model="conf.runningFooterTitleLeft" data-ng-options="item for item in footerOptions"></select>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="runningFooterTitleCenterInput">Running Footer Title Center</label>
-                        <select class="form-control" id="runningFooterTitleCenterInput" data-ng-model="conf.runningFooterTitleCenter" data-ng-options="item for item in footerOptions"></select>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="runningFooterTitleRightInput">Running Footer Title Right</label>
-                        <select class="form-control" id="runningFooterTitleRightInput" data-ng-model="conf.runningFooterTitleRight" data-ng-options="item for item in footerOptions"></select>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="runningHeaderOddLeftInput">Running Header Odd Left</label>
+                            <select class="form-control" id="runningHeaderOddLeftInput" data-ng-model="conf.runningHeaderOddLeft" data-ng-options="item for item in headerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningHeaderOddCenterInput">Running Header Odd Center</label>
+                            <select class="form-control" id="runningHeaderOddCenterInput" data-ng-model="conf.runningHeaderOddCenter" data-ng-options="item for item in headerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningHeaderOddRightInput">Running Header Odd Right</label>
+                            <select class="form-control" id="runningHeaderOddRightInput" data-ng-model="conf.runningHeaderOddRight" data-ng-options="item for item in headerOptions"></select>
+                        </div>
                     </div>
                 </div>
                 <br />
+            </tab>
+            <tab heading="Footer" class="form-group">
+                <br />
                 <div class="row">
-                    <div class="col-md-4">
-                        <label for="runningFooterEvenLeftInput">Running Footer Even Left</label>
-                        <select class="form-control" id="runningFooterEvenLeftInput" data-ng-model="conf.runningFooterEvenLeft" data-ng-options="item for item in footerOptions"></select>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.useRunningFooter" id="useRunningFooterInput">Running Footer
+                        </label>
                     </div>
-                    <div class="col-md-4">
-                        <label for="runningFooterEvenCenterInput">Running Footer Even Center</label>
-                        <select class="form-control" id="runningFooterEvenCenterInput" data-ng-model="conf.runningFooterEvenCenter" data-ng-options="item for item in footerOptions"></select>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="runningFooterEvenRightInput">Running Footer Even Right</label>
-                        <select class="form-control" id="runningFooterEvenRightInput" data-ng-model="conf.runningFooterEvenRight" data-ng-options="item for item in footerOptions"></select>
+                    <div class="col-md-2">
+                        <label for="footerPositionInput">Footer Position</label>
+                        <input class="form-control" type="number" data-ng-model="conf.footerPosition" id="footerPositionInput" />
                     </div>
                 </div>
                 <br />
+                <div class="well">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="runningFooterTitleLeftInput">Running Footer Title Left</label>
+                            <select class="form-control" id="runningFooterTitleLeftInput" data-ng-model="conf.runningFooterTitleLeft" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningFooterTitleCenterInput">Running Footer Title Center</label>
+                            <select class="form-control" id="runningFooterTitleCenterInput" data-ng-model="conf.runningFooterTitleCenter" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningFooterTitleRightInput">Running Footer Title Right</label>
+                            <select class="form-control" id="runningFooterTitleRightInput" data-ng-model="conf.runningFooterTitleRight" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="runningFooterEvenLeftInput">Running Footer Even Left</label>
+                            <select class="form-control" id="runningFooterEvenLeftInput" data-ng-model="conf.runningFooterEvenLeft" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningFooterEvenCenterInput">Running Footer Even Center</label>
+                            <select class="form-control" id="runningFooterEvenCenterInput" data-ng-model="conf.runningFooterEvenCenter" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningFooterEvenRightInput">Running Footer Even Right</label>
+                            <select class="form-control" id="runningFooterEvenRightInput" data-ng-model="conf.runningFooterEvenRight" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="runningFooterOddLeftInput">Running Footer Odd Left</label>
+                            <select class="form-control" id="runningFooterOddLeftInput" data-ng-model="conf.runningFooterOddLeft" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningFooterOddCenterInput">Running Footer Odd Center</label>
+                            <select class="form-control" id="runningFooterOddCenterInput" data-ng-model="conf.runningFooterOddCenter" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="runningFooterOddRightInput">Running Footer Odd Right</label>
+                            <select class="form-control" id="runningFooterOddRightInput" data-ng-model="conf.runningFooterOddRight" data-ng-options="item for item in footerOptions"></select>
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </tab>
+            <tab heading="Footnotes" class="form-group">
+                <br />
                 <div class="row">
-                    <div class="col-md-4">
-                        <label for="runningFooterOddLeftInput">Running Footer Odd Left</label>
-                        <select class="form-control" id="runningFooterOddLeftInput" data-ng-model="conf.runningFooterOddLeft" data-ng-options="item for item in footerOptions"></select>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.useSpecialCallerFootnotes" id="useSpecialCallerFootnotesInput">Use Special Caller Footnotes
+                        </label>
                     </div>
-                    <div class="col-md-4">
-                        <label for="runningFooterOddCenterInput">Running Footer Odd Center</label>
-                        <select class="form-control" id="runningFooterOddCenterInput" data-ng-model="conf.runningFooterOddCenter" data-ng-options="item for item in footerOptions"></select>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.paragraphedFootnotes" id="paragraphedFootnotesInput">Paragraphed Footnotes
+                        </label>
                     </div>
-                    <div class="col-md-4">
-                        <label for="runningFooterOddRightInput">Running Footer Odd Right</label>
-                        <select class="form-control" id="runningFooterOddRightInput" data-ng-model="conf.runningFooterOddRight" data-ng-options="item for item in footerOptions"></select>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.useNumericCallersFootnotes" id="useNumericCallersFootnotesInput">Use Numeric Callers Footnotes
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.useFootnoteRule" id="useFootnoteRuleInput">Footnote Rule
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.pageResetCallersFootnotes" id="pageResetCallersFootnotesInput">Reset Page Callers Footnotes
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.omitCallerInFootnotes" id="omitCallerInFootnotesInput">Omit Caller In Footnotes
+                        </label>
                     </div>
                 </div>
-               </div>
-               <br />
-        </tab>
-        <tab heading="Footnotes" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.useSpecialCallerFootnotes" id="useSpecialCallerFootnotesInput">Use Special Caller Footnotes
-                    </label>
+                <br />
+            </tab>
+            <tab heading="Cross References" class="form-group">
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.useSpecialCallerCrossrefs" id="useSpecialCallerCrossrefsInput">Use Special Caller Crossrefs
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.useAutoCallerCrossrefs" id="useAutoCallerCrossrefsInput">Use Auto Caller Crossrefs
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.omitCallerInCrossrefs" id="omitCallerInCrossrefsInput">Omit Caller In Crossrefs
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.paragraphedCrossrefs" id="paragraphedCrossrefsInput">Paragraphed Crossrefs
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="conf.useNumericCallersCrossrefs" id="useNumericCallersCrossrefsInput">Use Numeric Callers Crossrefs
+                        </label>
+                    </div>
                 </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.paragraphedFootnotes" id="paragraphedFootnotesInput">Paragraphed Footnotes
-                    </label>
+                <br />
+            </tab>
+            <tab heading="Editing Features" class="form-group">
+                <br />
+                <input type="checkbox" data-ng-model="conf.useDiagnostic" id="useDiagnosticInput" data-ng-change="mutuallyExclusive('diagnostic')">
+                <label for="diagnosticWell">Use Diagnostic Components</label>
+                <div class="row well" id="diagnosticWell">
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="diagnostics.leading" id="leadingInput" data-ng-change="diagnosticsComponentsUpdate()" data-ng-disabled="!conf.useDiagnostic">Leading
+                        </label>
+                    </div>
                 </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.useNumericCallersFootnotes" id="useNumericCallersFootnotesInput">Use Numeric Callers Footnotes
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.useFootnoteRule" id="useFootnoteRuleInput">Footnote Rule
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.pageResetCallersFootnotes" id="pageResetCallersFootnotesInput">Reset Page Callers Footnotes
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.omitCallerInFootnotes" id="omitCallerInFootnotesInput">Omit Caller In Footnotes
-                    </label>
-                </div>
-             </div>
-             <br />
-        </tab>
-        <tab heading="Cross References" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.useSpecialCallerCrossrefs" id="useSpecialCallerCrossrefsInput">Use Special Caller Crossrefs
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.useAutoCallerCrossrefs" id="useAutoCallerCrossrefsInput">Use Auto Caller Crossrefs
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.omitCallerInCrossrefs" id="omitCallerInCrossrefsInput">Omit Caller In Crossrefs
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.paragraphedCrossrefs" id="paragraphedCrossrefsInput">Paragraphed Crossrefs
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="conf.useNumericCallersCrossrefs" id="useNumericCallersCrossrefsInput">Use Numeric Callers Crossrefs
-                    </label>
-                </div>
-            </div>
-            <br />
-        </tab>
-        <tab heading="Editing Features" class="form-group">
-            <br />
-            <input type="checkbox" data-ng-model="conf.useDiagnostic" id="useDiagnosticInput" data-ng-change="mutuallyExclusive('diagnostic')">
-            <label for="diagnosticWell">Use Diagnostic Components</label>
-            <div class="row well" id="diagnosticWell">
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="diagnostics.leading" id="leadingInput" data-ng-change="diagnosticsComponentsUpdate()" data-ng-disabled="!conf.useDiagnostic">Leading
-                    </label>
-                </div>
-            </div>
-            <br />
-            <input type="checkbox" data-ng-model="conf.useBackground" id="useBackgroundInput" data-ng-change="mutuallyExclusive('background')">
-            <label for="backgroundComponentsWell">Use Background Components</label>
-            <div class="row well" id="backgroundComponentsWell">
-                <div class="col-md-2">
-                    <label for="watermarkTextInput">Watermark Text</label>
-                    <div class="input-group">
+                <br />
+                <input type="checkbox" data-ng-model="conf.useBackground" id="useBackgroundInput" data-ng-change="mutuallyExclusive('background')">
+                <label for="backgroundComponentsWell">Use Background Components</label>
+                <div class="row well" id="backgroundComponentsWell">
+                    <div class="col-md-2">
+                        <label for="watermarkTextInput">Watermark Text</label>
+                        <div class="input-group">
                           <span class="input-group-addon">
                             <input type="checkbox" data-ng-model="components.watermark" id="watermarkInput" data-ng-change="backgroundComponentsUpdate()" data-ng-disabled="!conf.useBackground">
                           </span>
-                          <input type="text" class="form-control" data-ng-model="conf.watermarkText" type="text" id="watermarkTextInput" data-ng-disabled="!components.watermark || !conf.useBackground">
+                            <input type="text" class="form-control" data-ng-model="conf.watermarkText" type="text" id="watermarkTextInput" data-ng-disabled="!components.watermark || !conf.useBackground">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="components.pagebox" id="pageboxInput" data-ng-change="backgroundComponentsUpdate()" data-ng-disabled="!conf.useBackground">Pagebox
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" data-ng-model="components.cropmarks" id="cropmarksInput" data-ng-change="backgroundComponentsUpdate()" data-ng-disabled="!conf.useBackground">Cropmarks
+                        </label>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="components.pagebox" id="pageboxInput" data-ng-change="backgroundComponentsUpdate()" data-ng-disabled="!conf.useBackground">Pagebox
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox" data-ng-model="components.cropmarks" id="cropmarksInput" data-ng-change="backgroundComponentsUpdate()" data-ng-disabled="!conf.useBackground">Cropmarks
-                    </label>
-                </div>
-            </div>
-            <br />
-        </tab>
-        <tab heading="Print Options" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label for="pageSizeCodeInput">Page Size Code</label>
-                    <select class="form-control" id="pageSizeCodeInput" data-ng-model="pageSizeCode" data-ng-change="setPageSize(pageSizeCode)">
-                        <option>A5</option>
-                        <option>A4</option>
-                        <option>US Letter</option>
-                        <option>custom</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <label for="pageHeightInput">Page Height</label>
-                    <input class="form-control" data-ng-model="conf.pageHeight" type="text" id="pageHeightInput" data-ng-disabled="pageSizeCode != 'custom' " />
-                </div>
-                <div class="col-md-2">
-                    <label for="pageWidthInput">Page Width</label>
-                    <input class="form-control" data-ng-model="conf.pageWidth" type="text" id="pageWidthInput" data-ng-disabled="pageSizeCode != 'custom' " />
-                </div>
-                <div class="col-md-2">
-                    <label for="printerPageSizeCodeInput">Printer Page Size Code</label>
-                    <select class="form-control" id="printerPageSizeCodeInput" data-ng-model="conf.printerPageSizeCode">
-                        <option>A4</option>
-                        <option>US Letter</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <label for="docInfoTextInput">Doc Info Text</label>
-                    <div class="input-group">
+                <br />
+            </tab>
+            <tab heading="Print Options" class="form-group">
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <label for="pageSizeCodeInput">Page Size Code</label>
+                        <select class="form-control" id="pageSizeCodeInput" data-ng-model="pageSizeCode" data-ng-change="setPageSize(pageSizeCode)">
+                            <option>A5</option>
+                            <option>A4</option>
+                            <option>US Letter</option>
+                            <option>custom</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="pageHeightInput">Page Height</label>
+                        <input class="form-control" data-ng-model="conf.pageHeight" type="text" id="pageHeightInput" data-ng-disabled="pageSizeCode != 'custom' " />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="pageWidthInput">Page Width</label>
+                        <input class="form-control" data-ng-model="conf.pageWidth" type="text" id="pageWidthInput" data-ng-disabled="pageSizeCode != 'custom' " />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="printerPageSizeCodeInput">Printer Page Size Code</label>
+                        <select class="form-control" id="printerPageSizeCodeInput" data-ng-model="conf.printerPageSizeCode">
+                            <option>A4</option>
+                            <option>US Letter</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="docInfoTextInput">Doc Info Text</label>
+                        <div class="input-group">
                           <span class="input-group-addon">
                             <input type="checkbox" data-ng-model="conf.useDocInfo" id="useDocInfoInput">
                           </span>
-                          <input type="text" class="form-control" data-ng-model="conf.docInfoText" type="text" id="docInfoTextInput" data-ng-disabled="!conf.useDocInfo">
+                            <input type="text" class="form-control" data-ng-model="conf.docInfoText" type="text" id="docInfoTextInput" data-ng-disabled="!conf.useDocInfo">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <br />
-        </tab>
-        <tab heading="Body Text" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label for="bodyTextLeadingInput">Leading Body Text</label>
-                    <input class="form-control" data-ng-model="conf.bodyTextLeading" type="number" id="bodyTextLeadingInput" />
+                <br />
+            </tab>
+            <tab heading="Body Text" class="form-group">
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <label for="bodyTextLeadingInput">Leading Body Text</label>
+                        <input class="form-control" data-ng-model="conf.bodyTextLeading" type="number" id="bodyTextLeadingInput" />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="bodyFontSizeInput">Body Font Size</label>
+                        <input class="form-control" data-ng-model="conf.bodyFontSize" type="number" id="bodyFontSizeInput" />
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input  type="checkbox" data-ng-model="conf.justifyParagraphs" id="justifyParagraphsInput">Justify Paragraphs
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline">
+                            <input data-ng-model="conf.rightToLeft" id="rightToLeftInput" type="checkbox">Right to Left
+                        </label>
+                    </div>
                 </div>
-                <div class="col-md-2">
-                    <label for="bodyFontSizeInput">Body Font Size</label>
-                    <input class="form-control" data-ng-model="conf.bodyFontSize" type="number" id="bodyFontSizeInput" />
+                <br />
+            </tab>
+            <!--         <tab heading="Misc" class="form-group">
+                        <br />
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label class="checkbox-inline">
+                                      <input type="checkbox">Use Caption References
+                                </label>
+                            </div>
+                            <div class="col-md-2">
+                                <label class="checkbox-inline">
+                                      <input type="checkbox">Use Figure Placeholders
+                                </label>
+                            </div>
+                        </div>
+                    </tab> -->
+            <tab heading="Adv" class="form-group">
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                        <label for="extraRightMarginInput">Extra Right Margin</label>
+                        <input class="form-control" data-ng-model="conf.extraRightMargin" type="text" id="extraRightMarginInput" />
+                    </div>
+                    <div class="col-md-2">
+                        <label for="chapterVerseSeperatorInput">Chapter Verse Seperator</label>
+                        <input class="form-control" data-ng-model="conf.chapterVerseSeperator" type="text" id="chapterVerseSeperatorInput" />
+                    </div>
                 </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input  type="checkbox" data-ng-model="conf.justifyParagraphs" id="justifyParagraphsInput">Justify Paragraphs
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input data-ng-model="conf.rightToLeft" id="rightToLeftInput" type="checkbox">Right to Left
-                    </label>
-                </div>
-            </div>
-            <br />
-        </tab>
-<!--         <tab heading="Misc" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox">Use Caption References
-                    </label>
-                </div>
-                <div class="col-md-2">
-                    <label class="checkbox-inline">
-                          <input type="checkbox">Use Figure Placeholders
-                    </label>
-                </div>
-            </div>
-        </tab> -->
-        <tab heading="Adv" class="form-group">
-            <br />
-            <div class="row">
-                <div class="col-md-2">
-                    <label for="extraRightMarginInput">Extra Right Margin</label>
-                    <input class="form-control" data-ng-model="conf.extraRightMargin" type="text" id="extraRightMarginInput" />
-                </div>
-                <div class="col-md-2">
-                    <label for="chapterVerseSeperatorInput">Chapter Verse Seperator</label>
-                    <input class="form-control" data-ng-model="conf.chapterVerseSeperator" type="text" id="chapterVerseSeperatorInput" />
-                </div>
-            </div>
-            <br />
-        </tab>
-    </tabset>
+                <br />
+            </tab>
+        </tabset>
     </form>
     <div class="row" data-ng-style="css.pagesContainer">
         <br>
         <p style="text-align: center;">
-        Preview (only displays adjustable margins)
+            Preview (only displays adjustable margins)
         </p>
         <!-- left page -->
         <div class="pages" id="page-left" data-ng-style="css.leftPage">
@@ -486,7 +486,7 @@
 
         <!-- right page -->
         <div class="pages" id="page-right"
-            data-ng-style="css.rightPage">
+             data-ng-style="css.rightPage">
             <div id="pageRightLayout" class="margins" data-ng-style="css.rightMargins">
                 <p>Sed quod voluptas nihil. Dolores molestiae in soluta.
                     Distinctio veniam illum et velit aut. Voluptates tenetur et ab non
