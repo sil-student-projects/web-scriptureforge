@@ -3,16 +3,6 @@
 angular.module('typesetting-new-project', ['ui.router', 'pascalprecht.translate', 'bellows.services', 'palaso.ui.listview', 'ui.bootstrap', 'palaso.ui.notice', 'palaso.ui.utils', 'wc.Directives'])
   .config(['$stateProvider', '$urlRouterProvider', '$translateProvider',
     function($stateProvider, $urlRouterProvider, $translateProvider) {
-
-      // configure interface language filepath
-      /*
-      $translateProvider.useStaticFilesLoader({
-        prefix: '/angular-app/scriptureforge/typesetting/new-project/lang/',
-        suffix: '.json'
-      });
-      $translateProvider.preferredLanguage('en');
-      */
-
       // State machine from ui.router
       $stateProvider
         .state('newProject', {
@@ -45,7 +35,8 @@ angular.module('typesetting-new-project', ['ui.router', 'pascalprecht.translate'
       $scope.addProject = function() {
         if ($scope.projectCodeState == 'ok') {
           $scope.isSubmitting = true;
-          projectService.create($scope.newProject.projectName, $scope.newProject.projectCode, 'typesetting', function(result) {
+          projectService.create($scope.newProject.projectName, $scope.newProject.projectCode,
+              $scope.newProject.projectUSFM, 'typesetting', function(result) {
             //$scope.isSubmitting = false;
             if (result.ok) {
               notice.push(notice.SUCCESS, 'The ' + $scope.newProject.projectName + ' project was created successfully');
@@ -74,7 +65,7 @@ angular.module('typesetting-new-project', ['ui.router', 'pascalprecht.translate'
         return pattern.test(code);
       };
 
-      $scope.$watch('newProject.projectName', function(newval) {
+      $scope.$watch(' e', function(newval) {
         if (!$scope.newProject.editProjectCode) {
           if (angular.isUndefined(newval)) {
             $scope.newProject.projectCode = '';

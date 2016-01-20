@@ -35,6 +35,12 @@
             <p class="text-muted">(Not usually necessary)</p>
         </label>
     </div>
+    <br/>
+    <div class="form-group">
+        <input type="text" class="form-control" data-ng-model="newProject.projectName"
+               set-focus="!newProjectCollapsed" maxlength="50" required placeholder="USFM code"
+               data-idle-validate-keypress="resetValidateProjectForm()"/>
+    </div>
     <button type="submit" class="btn btn-primary" data-ng-disabled="isSubmitting">Create Project</button>
     <div class="alert alert-danger" data-ng-show="projectCodeState == 'invalid'">Project Code must begin with a letter, and only contain lower-case letters, numbers, dashes and underscores!</div>
     <div class="alert alert-danger" data-ng-show="projectCodeState == 'exists'">Project Code already exists!</div>

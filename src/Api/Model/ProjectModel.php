@@ -301,6 +301,7 @@ class ProjectModel extends Mapper\MapperModel
         $folderPath = APPPATH . $this->getAssetsRelativePath();
         FileUtilities::createAllFolders($folderPath);
         return $folderPath;
+        return $folderPath;
     }
 
     /**
@@ -331,6 +332,7 @@ class ProjectModel extends Mapper\MapperModel
      * @var string
      */
     public $projectName;
+
 
     /**
      * Web app interface language code
