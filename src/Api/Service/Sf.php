@@ -682,10 +682,14 @@ class Sf
     public function typesetting_settings_update($settings) {
         return TypesettingSettingsCommands::updateSettings($this->_projectId, $settings);
     }
+    public function typesetting_settings_project_config($projectID,$projectIDCode, $projectCIDLIST) {
+        return TypesettingSettingsCommands::setProjectConfig($this->_projectId, $projectIDCode, $projectCIDLIST);
+    }
 
     public function typesetting_composition_getBookHTML($bookId) {
         return TypesettingCompositionCommands::getBookHTML($this->_projectId, $bookId);
     }
+
 
     public function typesetting_composition_getListOfBooks() {
         return TypesettingCompositionCommands::getListOfBooks($this->_projectId);

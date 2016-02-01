@@ -7,7 +7,8 @@ angular.module('typesetting',
           'typesetting.typeset',
           'typesetting.review',
           'typesetting.services',
-          'typesetting.projectSetupLayout'
+          'typesetting.projectSetupLayout',
+          'typesetting.projectSetupAssets'
 
 
     ])
@@ -23,7 +24,6 @@ angular.module('typesetting',
     $urlRouterProvider.otherwise('/typeset');
 
     $stateProvider
-
         .state('typeset', {
           url: '/typeset',
           templateUrl: '/angular-app/scriptureforge/typesetting/views/typeset.html',
@@ -36,8 +36,12 @@ angular.module('typesetting',
           url: '/render',
           templateUrl: '/angular-app/scriptureforge/typesetting/views/renderList.html',
         })
-        .state('setup', {
-          url: '/setup',
+        .state('assets', {
+          url: '/assets',
+          templateUrl: '/angular-app/scriptureforge/typesetting/views/projectSetup.assets.html',
+        })
+        .state('layout', {
+          url: '/layout',
           templateUrl: '/angular-app/scriptureforge/typesetting/views/projectSetup.layout.html',
         });
 

@@ -6,6 +6,9 @@ use Api\Model\Mapper\JsonDecoder;
 use Api\Model\Mapper\JsonEncoder;
 use Api\Model\ProjectModel;
 use Api\Model\Scriptureforge\Dto\UsfmHelper;
+use Api\Model\Scriptureforge\Typesetting\RapumaJobRunner;
+use Api\Model\Scriptureforge\Typesetting\RapumaProject;
+use Api\Model\Scriptureforge\Typesetting\RapumaProjectModel;
 use Api\Model\Scriptureforge\Typesetting\SettingModel;
 use Api\Model\Scriptureforge\Typesetting\TypesettingBookModel;
 
@@ -17,7 +20,7 @@ class TypesettingCompositionCommands
         //return file_get_contents(__DIR__ . '/../../../../../docs/samples/JohnHTMLSample2.html');
 
         // Convert the entire book of John from USFM to HTML and return it
-        $workingTextUsfm = file_get_contents(__DIR__ . '/../../../../../../docs/usfm/KJV/44JHNKJVT.SFM');
+        $workingTextUsfm = file_get_contents(__DIR__ . '/../../../../../../Publishing/KYU-MYMR-KYUMTEST/Component/mat/mat_base.usfm');
 
         $usfmHelper = new UsfmHelper($workingTextUsfm);
         $workingTextHtml = $usfmHelper->toHtml();
@@ -84,8 +87,11 @@ class TypesettingCompositionCommands
 
     }
 
-    public static function renderBook($projectId, $bookId)
+    public static  function renderBook($projectId, $bookId)
     {
+        RapumaProjectModel::renderGroup();
+
+
 
     }
     public static function getComments($projectId, $bookId)

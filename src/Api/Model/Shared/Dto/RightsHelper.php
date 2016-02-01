@@ -325,7 +325,8 @@ class RightsHelper
                 return $this->userHasProjectRight(Domain::TEXTS + Operation::VIEW);
             case 'typesetting_composition_getBookDto':
                 return $this->userHasProjectRight(Domain::TEXTS + Operation::VIEW);
-
+            case 'typesetting_settings_project_config':
+                return $this->userHasProjectRight(Domain::TEXTS + Operation::EDIT);
 
             case 'typesetting_rendered_page_getRenderedPageDto':
                 return $this->userHasProjectRight(Domain::TEXTS + Operation::VIEW);
@@ -368,6 +369,7 @@ class RightsHelper
                 return $this->userHasProjectRight(Domain::QUESTIONS + Operation::EDIT_OWN);
             case 'typesetting_discussionList_updateStatus':
                 return $this->userHasProjectRight(Domain::QUESTIONS + Operation::EDIT_OWN);
+
 
             // LanguageForge (lexicon)
             case 'lex_configuration_update':

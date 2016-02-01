@@ -51,6 +51,15 @@ class RapumaCommands
 
         return $projectId;
     }
+    public  static function addGroup($projectId, $userId, $groupName){
+        if (RapumaCommands::groupExist($groupName)){
+            return false;
+        }
+        $project = new ProjectModel();
+        $project = ProjectModel::getById($projectId);
+
+
+    }
 
     /**
      * @param string $id
@@ -249,4 +258,10 @@ class RapumaCommands
 
         return $project->readByProperties(array('projectCode' => $code));
     }
+
+    public static function groupExist($groupName){
+        //TODO
+        return false;
+    }
+
 }

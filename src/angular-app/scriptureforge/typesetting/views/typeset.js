@@ -32,7 +32,7 @@ angular.module('typesetting.typeset',
               $scope.renderRapuma = function() {
                 compositionService.renderBook($scope.bookID,
                     function(result) {
-                      //nothing todo?
+                      $scope.renderInfo = result.data
                     });
               };
               var getBookHTML = function getBookHTML() {

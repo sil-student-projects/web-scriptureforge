@@ -1,0 +1,8 @@
+.usfmcode {
+    display: block;
+}
+.usfmcode > div {
+    display: inline-block;
+}
+.usfmcode > textarea {
+}

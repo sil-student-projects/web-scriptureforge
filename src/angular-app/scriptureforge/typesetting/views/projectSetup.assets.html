@@ -1,22 +1,24 @@
 <div class="container" ng-controller="projectSetupAssetsCtrl">
-    <h2>Assets Settings</h2>
-    <!-- <div data-wc-overlay="" data-wc-overlay-delay="6000">
-    <img src="/Site/views/shared/image/loading.gif" />&nbsp; Loading...
-    </div>-->
-    <div class="row" data-ng-repeat="section in sections">
-        <div class="panel col-xs-12 col-md-6">
-            <h3 data-ng-cloak>
-                {{ section.title }}
-                <div class="pull-right">
-                    <button class="btn btn-default" data-ng-click="newTextCollapsed = toggleCollapse(section, newTextCollapsed)">Add</button>
-<!--                     <a role="button" class="btn btn-default dropdown-toggle" -->
-<!--                         data-dropdown-toggle="" aria-haspopup="true" aria-expanded="false"><i -->
-<!--                         class="icon-cog icon-large"></i><span class="caret"></span></a> -->
-                </div>
-            </h3>
 
+    <div class="row">
+        <h2 class="span9" style="margin-top: 0px;">Project Setup</h2>
+        <span class="save-notice text-muted span1">{{saveNotice()}}</span>
+        <button type="button" class="btn btn-primary span1" data-ng-click="saveButtonClick()" >Save</button>
+    </div>
+    <div style="display: block;">
+        <label style="display: inline-block; " ><h4>USFM code:</h4></label>
+        <textarea data-ng-submit="setProjectConfig()" data-ng-model="usfmcode" style=" height:20px;width: 30px;overflow: hidden; resize: none; vertical-align: top;"></textarea>
+    </div>
+    <div class="row" data-ng-repeat="section in sections">
+        <div class="panel span12">
+            <h4 data-ng-cloak>
+            {{ section.title }}
+            <div class="pull-right">
+                <button class="btn btn-default" data-ng-click="newTextCollapsed = toggleCollapse(section, newTextCollapsed)">Add</button>
+            </div>
+            </h4>
             <form name="" data-collapse="isCollapsed(section, newTextCollapsed)">
-                <fieldset class="col-xs-12">
+                <fieldset class="span12">
                     <!-- TODO: Should move style into a css file!!! -->
                     <div class="drop-box btn"
                         style="width: 100%; height: auto; padding-top: 0; cursor: pointer;"
@@ -31,17 +33,16 @@
                         <p>
                             <strong>{{section.tempFile.name}}</strong> {{section.tempFile.size | bytes }}
                         </p>
-                        <div class="col-xs-12">
+                        <div class="span12">
                             <progressbar data-value="progress" data-max="100.0"></progressbar>
                         </div>
                         &nbsp;
                     </div>
-
-<!--
-Used to mock file upload. Assumes file is already in the right location.
-TODO: This should be removed from production code! IJH 2014-11
- -->
-<pui-mock-upload data-pui-do-upload="onFileSelect(filesArray, param2)" data-pui-do-upload-param2="section" />
+            <!--
+            Used to mock file upload. Assumes file is already in the right location.
+            TODO: This should be removed from production code! IJH 2014-11
+             -->
+            <pui-mock-upload data-pui-do-upload="onFileSelect(filesArray, param2)" data-pui-do-upload-param2="section" />
 
                 </fieldset>
                 <div style="clear: left"></div>
@@ -51,7 +52,6 @@ TODO: This should be removed from production code! IJH 2014-11
                     <!-- TODO: Move styling to css -->
                      <img data-ng-if="section.fileType == 'png'" data-ng-src="{{asset.path + '/' + asset.name}}" style="width:50px;" />
                     <span>{{ asset.name }}</span>
-<!--                     <span class="btn badge" ng-click="deleteFile(section.assets,$index)">X</span> -->
                 </li>
             </ul>
         </div>

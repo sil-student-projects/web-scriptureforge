@@ -7,7 +7,9 @@ angular.module('typesetting.services', ['jsonRpc'])
     this.render = function render(callback) {
       jsonRpc.call('typesetting_rapuma_render', [], callback);
     };
-
+    this.setProjectConfig = function setProjectConfig(projectID,projectIDCode, projectCIDLIST, callback) {
+      jsonRpc.call('typesetting_settings_project_config', [projectID,projectIDCode, projectCIDLIST], callback);
+    };
     this.editorDto = function(callback) {
     };
 

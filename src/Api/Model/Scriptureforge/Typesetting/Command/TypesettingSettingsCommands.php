@@ -53,4 +53,23 @@ class TypesettingSettingsCommands
         JsonDecoder::decode($currentSettingModel->layout, $settings);
         return $currentSettingModel->write();
     }
+
+    /**
+     * @param $projectIDCode
+     * @param $projectCIDLIST
+     */
+    public  static  function setProjectConfig($projectID,$projectIDCode, $projectCIDLIST){
+        $data = file('/../../../../../../Publishing/Second/Config/project.config'); // reads an array of lines
+        function replace_a_line($data, $projectIDCode, $projectCIDLIST) {
+            if (stristr($data, 'projectIDCode')) {
+                return $projectIDCode;
+            }
+            if (stristr($data, 'cidList')) {
+                return $projectCIDLIST;
+            }
+            return $data;
+        }
+        $data = array_map('replace_a_line',$data,$projectIDCode,$projectCIDLIST );
+        file_put_contents('/../../../../../../Publishing/Second/Config/project.config', implode('', $data));
+    }
 }
