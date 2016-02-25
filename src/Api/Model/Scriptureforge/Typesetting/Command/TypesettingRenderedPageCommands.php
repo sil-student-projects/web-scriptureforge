@@ -25,8 +25,10 @@ class TypesettingRenderedPageCommands
     public static function setRenderedPageComments($projectId, $commentModel)
     {
         $projectModel = new ProjectModel($projectId);
-        $RenderedPageCommentModel = RenderedPageCommentModel::createPageComments($projectModel);
-        $model = RenderedPageCommentModel::create();
+       // $RenderedPageCommentModel = RenderedPageCommentModel::createPageComments($projectModel);
+        $RenderedPageCommentModel = RenderedPageCommentModel::getCurrent($projectModel);
+       // $model = RenderedPageCommentModel::create();
+        $model = RenderedPageCommentModel::createPageComments();
         JsonDecoder::decode($model, $commentModel);
         $RenderedPageCommentModel->pageComments = $model;
         $RenderedPageCommentModel->write();
@@ -34,10 +36,10 @@ class TypesettingRenderedPageCommands
 
     public static function getRenderedPageComments($projectId)
     {
-        //  $projectModel = new ProjectModel($projectId);
-        //  $RenderedPageCommentModel = RenderedPageCommentModel::getCurrent($projectModel);
-        //  return JsonEncoder::encode($RenderedPageCommentModel->pageComments);
-        return array("5:10 needs more spacing", "8:5 needs less spacing", "23:2 is missing an illustration");
+          $projectModel = new ProjectModel($projectId);
+          $RenderedPageCommentModel = RenderedPageCommentModel::getCurrent($projectModel);
+          return JsonEncoder::encode($RenderedPageCommentModel->pageComments);
+        //return array("5:10 needs more spacing", "8:5 needs less spacing", "23:2 is missing an illustration");
     }
 
     public static function getRenderedPage()
