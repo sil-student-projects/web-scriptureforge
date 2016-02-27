@@ -25,11 +25,6 @@ class TypesettingCompositionCommands
         return $workingTextHtml;
     }
 
-    public static function getListOfBooks($projectId)
-    {
-        return array(array('id'=>'id1', 'name'=>'john'),array('id'=>'id2', 'name'=>'mark'));
-    }
-
     public static function getParagraphProperties($projectId, $bookId)
     {
         $projectModel = new ProjectModel($projectId);
@@ -86,7 +81,11 @@ class TypesettingCompositionCommands
 
     public static function renderBook($projectId, $bookId)
     {
-
+        $projectId= 'KYU-MYMR-KYUMTEST';
+        $bookId = 'GOSPEL';
+        $command = "rapuma process ". $projectId . " group render --group ". $bookId ;
+       $last_line = shell_exec($command);
+        return $last_line;
     }
     public static function getComments($projectId, $bookId)
     {
