@@ -1,9 +1,9 @@
 // controller for setupProjectLayout
 'use strict';
 
-angular.module('typesetting.projectSetupLayout', ['jsonRpc', 'ui.bootstrap', 'bellows.services', 'ngAnimate', 'palaso.ui.notice', 'typesetting.layoutServices'])
+angular.module('typesetting.layout', ['jsonRpc', 'ui.bootstrap', 'bellows.services', 'ngAnimate', 'palaso.ui.notice', 'typesetting.layoutServices'])
 
-.controller('projectSetupLayoutCtrl', ['$scope', '$state', 'typesettingLayoutService', 'sessionService', 'modalService', 'silNoticeService', 'templateSaveService', 'templateLoadService', '$interval', '$rootScope',
+.controller('LayoutCtrl', ['$scope', '$state', 'typesettingLayoutService', 'sessionService', 'modalService', 'silNoticeService', 'templateSaveService', 'templateLoadService', '$interval', '$rootScope',
 function($scope, $state, layoutService, sessionService, modal, notice, templateSaveObject, templateLoadObject, $interval, $rootScope) {
   var vm = $scope;
   

@@ -1,8 +1,8 @@
 //controller for setupProjectAssets
 'use strict';
 
-angular.module('typesetting.projectSetupAssets', ['jsonRpc', 'ui.bootstrap', 'bellows.services', 'ngAnimate', 'palaso.ui.notice', 'typesetting.services', 'angularFileUpload', 'palaso.ui.mockUpload'])
-  .controller('projectSetupAssetsCtrl', ['$scope', '$state', '$upload', 'typesettingAssetService', 'sessionService', 'modalService', 'silNoticeService',
+angular.module('typesetting.Setup', ['jsonRpc', 'ui.bootstrap', 'bellows.services', 'ngAnimate', 'palaso.ui.notice', 'typesetting.services', 'angularFileUpload', 'palaso.ui.mockUpload'])
+  .controller('SetupCtrl', ['$scope', '$state', '$upload', 'typesettingAssetService', 'sessionService', 'modalService', 'silNoticeService',
   function($scope, $state, $upload, typesettingAssetService, sessionService, modal, notice) {
 
     $scope.sections = [

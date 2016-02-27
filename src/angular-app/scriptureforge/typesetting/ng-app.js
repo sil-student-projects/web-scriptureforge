@@ -6,6 +6,8 @@ angular.module('typesetting',
           'bellows.filters',
           'typesetting.typeset',
           'typesetting.review',
+          'typesetting.layout',
+          'typesetting.setup'
 
 
     ])
@@ -30,9 +32,13 @@ angular.module('typesetting',
           url: '/review',
           templateUrl: '/angular-app/scriptureforge/typesetting/views/review.html',
         })
-        .state('render', {
-          url: '/render',
-          templateUrl: '/angular-app/scriptureforge/typesetting/views/renderList.html',
+        .state('layout', {
+          url: '/layout',
+          templateUrl: '/angular-app/scriptureforge/typesetting/views/layout.html',
+        })
+        .state('setup', {
+          url: '/setup',
+          templateUrl: '/angular-app/scriptureforge/typesetting/views/setup.html',
         });
 
   },])
