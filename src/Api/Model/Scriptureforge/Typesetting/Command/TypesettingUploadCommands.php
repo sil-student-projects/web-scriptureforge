@@ -24,117 +24,6 @@ class TypesettingUploadCommands
         if (! $tmpFilePath) {
             throw new \Exception("Upload controller did not move the uploaded file.");
         }
-
-        switch ($mediaType) {
-            case 'usfm':
-                $response = self::uploadUsfmFile($projectId, $mediaType, $tmpFilePath);
-                break;
-            case 'usfm-zip':
-                $response = self::importProjectZip($projectId, $mediaType, $tmpFilePath);
-                break;
-            case 'png':
-                $response = self::uploadPngFile($projectId, $mediaType, $tmpFilePath);
-                break;
-            default:
-                throw new \Exception('Unknown media type "' . $mediaType . '" in Typesetting file upload.');
-        }
-        if ($response->result) {
-            $project = new TypesettingProjectModel($projectId);
-            $asset = new TypesettingAssetModel($project);
-            $asset->name = $response->data->fileName;
-            $asset->path = $response->data->path;
-            $asset->type = $mediaType;
-            $asset->uploaded = true;
-            $assetId = $asset->write();
-            $response->data->assetId = $assetId;
-        }
-        return $response;
-    }
-
-    /**
-     * Upload an USFM file
-     *
-     * @param string $projectId
-     * @param string $mediaType
-     * @param string $tmpFilePath
-     * @throws \Exception
-     * @return UploadResponse
-     */
-    public static function uploadUsfmFile($projectId, $mediaType, $tmpFilePath)
-    {
-        $file = $_FILES['file'];
-        $fileName = $file['name'];
-
-        $finfo = finfo_open(FILEINFO_MIME_TYPE);
-        $fileType = finfo_file($finfo, $tmpFilePath);
-        finfo_close($finfo);
-
-        $fileName = FileUtilities::replaceSpecialCharacters($fileName);
-
-        $fileExt = (false === $pos = strrpos($fileName, '.')) ? '' : substr($fileName, $pos);
-
-        $allowedTypes = array(
-            "text/plain"
-        );
-        $allowedExtensions = array(
-            ".sfm"
-        );
-
-        $response = new UploadResponse();
-        if (in_array(strtolower($fileType), $allowedTypes) && in_array(strtolower($fileExt), $allowedExtensions)) {
-
-            // make the folders if they don't exist
-            $project = new TypesettingProjectModel($projectId);
-            $folderPath = $project->getAssetsFolderPath();
-
-            FileUtilities::createAllFolders($folderPath);
-
-            // move uploaded file from tmp location to assets
-            $filePath = self::mediaFilePath($folderPath, '', $fileName);
-            $moveOk = copy($tmpFilePath, $filePath);
-            @unlink($tmpFilePath);
-
-            // construct server response
-            if ($moveOk && $tmpFilePath) {
-                $data = new TypesettingMediaResult();
-                $data->path = $folderPath;
-                $data->fileName = $fileName;
-                $response->result = true;
-            } else {
-                $data = new ErrorResult();
-                $data->errorType = 'UserMessage';
-                $data->errorMessage = "$fileName could not be saved to the right location. Contact your Site Administrator.";
-                $response->result = false;
-            }
-        } else {
-            $allowedExtensionsStr = implode(", ", $allowedExtensions);
-            $data = new ErrorResult();
-            $data->errorType = 'UserMessage';
-            if (count($allowedExtensions) < 1) {
-                $data->errorMessage = "$fileName is not an allowed USFM file. No USFM file formats are currently enabled, contact your Site Administrator.";
-            } elseif (count($allowedExtensions) == 1) {
-                $data->errorMessage = "$fileName is not an allowed USFM file. Ensure the file is a $allowedExtensionsStr.";
-            } else {
-                $data->errorMessage = "$fileName is not an allowed USFM file. Ensure the file is one of the following types: $allowedExtensionsStr.";
-            }
-            $response->result = false;
-        }
-
-        $response->data = $data;
-        return $response;
-    }
-
-    /**
-     * Upload a png file
-     *
-     * @param string $projectId
-     * @param string $mediaType
-     * @param string $tmpFilePath
-     * @throws \Exception
-     * @return UploadResponse
-     */
-    public static function uploadPngFile($projectId, $mediaType, $tmpFilePath)
-    {
         $file = $_FILES['file'];
         $fileName = $file['name'];
 
@@ -183,16 +72,27 @@ class TypesettingUploadCommands
             $data = new ErrorResult();
             $data->errorType = 'UserMessage';
             if (count($allowedExtensions) < 1) {
-                $data->errorMessage = "$fileName is not an allowed PNG file. No PNG file formats are currently enabled, contact your Site Administrator.";
+                $data->errorMessage = "$fileName is not an allowed $mediaType file. No $mediaType file formats are currently enabled, contact your Site Administrator.";
             } elseif (count($allowedExtensions) == 1) {
-                $data->errorMessage = "$fileName is not an allowed PNG file. Ensure the file is a $allowedExtensionsStr.";
+                $data->errorMessage = "$fileName is not an allowed $mediaType file. Ensure the file is a $allowedExtensionsStr.";
             } else {
-                $data->errorMessage = "$fileName is not an allowed PNG file. Ensure the file is one of the following types: $allowedExtensionsStr.";
+                $data->errorMessage = "$fileName is not an allowed $mediaType file. Ensure the file is one of the following types: $allowedExtensionsStr.";
             }
             $response->result = false;
         }
 
         $response->data = $data;
+
+        if ($response->result) {
+            $project = new TypesettingProjectModel($projectId);
+            $asset = new TypesettingAssetModel($project);
+            $asset->name = $response->data->fileName;
+            $asset->path = $response->data->path;
+            $asset->type = $mediaType;
+            $asset->uploaded = true;
+            $assetId = $asset->write();
+            $response->data->assetId = $assetId;
+        }
         return $response;
     }
 

@@ -81,10 +81,11 @@ class TypesettingCompositionCommands
 
     public static function renderBook($projectId, $bookId)
     {
+
         $projectId= 'KYU-MYMR-KYUMTEST';
         $bookId = 'GOSPEL';
         $command = "rapuma process ". $projectId . " group render --group ". $bookId ;
-       $last_line = shell_exec($command);
+        $last_line = shell_exec($command);
         return $last_line;
     }
     public static function getComments($projectId, $bookId)
@@ -101,8 +102,7 @@ class TypesettingCompositionCommands
     public static function getPageDto($projectId)
     {
         $bookID = 'id1';
-        return array('books' => TypesettingCompositionCommands::getListOfBooks($projectId),
-                    'bookID' => $bookID,
+        return array('bookID' => $bookID,
                     'bookHTML' => TypesettingCompositionCommands::getBookHTML($projectId, $bookID),
                     'paragraphProperties' => TypesettingCompositionCommands::getParagraphProperties($projectId, $bookID),
                     'illustrationProperties' => TypesettingCompositionCommands::getIllustrationProperties($projectId),
