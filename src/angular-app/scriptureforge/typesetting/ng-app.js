@@ -6,8 +6,9 @@ angular.module('typesetting',
           'bellows.filters',
           'typesetting.typeset',
           'typesetting.review',
-          'typesetting.layout',
-          'typesetting.setup'
+          'typesetting.discussionList',
+          'typesetting.discussionThread',
+
 
 
     ])
@@ -32,20 +33,32 @@ angular.module('typesetting',
           url: '/review',
           templateUrl: '/angular-app/scriptureforge/typesetting/views/review.html',
         })
-        .state('layout', {
-          url: '/layout',
-          templateUrl: '/angular-app/scriptureforge/typesetting/views/layout.html',
+	    .state('discussion', {
+            url: '/discussion',
+            templateUrl: '/angular-app/scriptureforge/typesetting/views/discussionList.html',
         })
-        .state('setup', {
-          url: '/setup',
-          templateUrl: '/angular-app/scriptureforge/typesetting/views/setup.html',
+        .state('discussionThreadView', {
+            url: '/discussion/:threadId',
+            templateUrl: '/angular-app/scriptureforge/typesetting/views/discussionThread.html',
         });
+        //.state('layout', {
+        //  url: '/layout',
+        //  templateUrl: '/angular-app/scriptureforge/typesetting/views/layout.html',
+        //})
+        //.state('setup', {
+        //  url: '/setup',
+        //  templateUrl: '/angular-app/scriptureforge/typesetting/views/setup.html',
+        //});
 
   },])
   .controller('MainCtrl', ['$scope', function($scope) {
     $scope.selectedBtn = 0;
 
-
+    // accessed by discussionListCtrl and discussionThreadCtrl
+    $scope.discussion = {
+      currentThreadIndex: -1,
+      threads: [],
+    };
 
     $scope.settingsButton = {
       isopen: false,

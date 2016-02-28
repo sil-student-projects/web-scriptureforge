@@ -3,19 +3,18 @@
 angular.module('typesetting.review',
     [ 'jsonRpc', 'ui.bootstrap', 'bellows.services', 'ngAnimate',
         'typesetting.renderedPageServices',
-        'composition.selection' ])
+        'composition.selection','typesetting.discussionServices' ])
 
-    .controller(
-    'reviewCtrl',
-    [
+    .controller('reviewCtrl', [
         '$scope',
         '$state',
         'typesettingSetupService',
         'typesettingRenderedPageService',
+        'typesettingDiscussionService',
         'sessionService',
         'modalService',
         'silNoticeService',
-        function($scope, $state, typesettingSetupApi, renderedPageService) {
+        function($scope, $state, typesettingSetupApi, discussionService, renderedPageService, notice) {
 
             $scope.listOfBooks = [];
             var currentVerse;
@@ -82,7 +81,7 @@ angular.module('typesetting.review',
 
             });
 
-            getRenderedPageDto();
 
+           // getRenderedPageDto();
         }]);
 
