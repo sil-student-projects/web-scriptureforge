@@ -192,6 +192,16 @@ angular.module('typesetting.typeset',
               $scope.paragraphChanged = function paragraphChanged(){
                 paragraphProperties[currentVerse].growthFactor = $scope.paragraphGrowthFactor;
               };
+
+              var RapumaConfigSetting = function RapumaConfigSetting(){
+                renderedPageService.RapumaConfigSetting(function RapumaConfigSetting(result){
+                  $scope.bookID = "";
+                  $scope.font = "";
+                  $scope.fontSize = "";
+                  $scope.something = "";
+                  /*todo*/
+                });
+              };
               
 
               $scope.$watch('paragraphNode',function() {
@@ -216,7 +226,6 @@ angular.module('typesetting.typeset',
                   $scope.comments = result.data.comments;
                 });
               };
-
 
               getRenderedPageDto();
               getPageDto();
